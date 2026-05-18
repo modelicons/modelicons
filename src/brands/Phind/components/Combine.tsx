@@ -1,0 +1,22 @@
+import { memo } from 'react';
+
+import IconCombine, { type IconCombineProps } from '../../../runtime/IconCombine';
+
+import { COMBINE_SPACE_MULTIPLE, COMBINE_TEXT_MULTIPLE, TITLE } from '../style';
+import Text from './Text';
+
+export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
+
+const Combine = memo<CombineProps>(({ ...rest }) => {
+  return (
+    <IconCombine
+      Text={Text}
+      aria-label={TITLE}
+      spaceMultiple={COMBINE_SPACE_MULTIPLE}
+      textMultiple={COMBINE_TEXT_MULTIPLE}
+      {...rest}
+    />
+  );
+});
+
+export default Combine;
