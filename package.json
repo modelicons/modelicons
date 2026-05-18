@@ -1,6 +1,6 @@
 {
   "name": "modelicons",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "300+ AI model brand SVG icons for React. Zero runtime dependencies, ~5 KB per icon tree-shaken.",
   "keywords": [
     "ai",
