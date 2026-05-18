@@ -1,0 +1,1567 @@
+{
+  "name": "modelicons",
+  "version": "0.1.0",
+  "description": "Lightweight AI model brand SVG icons for React. Zero runtime dependencies — no antd, no antd-style, no @lobehub/ui.",
+  "keywords": [
+    "ai",
+    "llm",
+    "model",
+    "icons",
+    "logo",
+    "react",
+    "svg",
+    "tree-shakeable",
+    "zero-dependency"
+  ],
+  "homepage": "https://github.com/modelicons/modelicons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modelicons/modelicons.git"
+  },
+  "license": "MIT",
+  "author": "modelicons",
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json",
+    "./Ace": {
+      "types": "./dist/brands/Ace/index.d.ts",
+      "import": "./dist/brands/Ace/index.js",
+      "require": "./dist/brands/Ace/index.cjs"
+    },
+    "./Adobe": {
+      "types": "./dist/brands/Adobe/index.d.ts",
+      "import": "./dist/brands/Adobe/index.js",
+      "require": "./dist/brands/Adobe/index.cjs"
+    },
+    "./AdobeFirefly": {
+      "types": "./dist/brands/AdobeFirefly/index.d.ts",
+      "import": "./dist/brands/AdobeFirefly/index.js",
+      "require": "./dist/brands/AdobeFirefly/index.cjs"
+    },
+    "./AgentVoice": {
+      "types": "./dist/brands/AgentVoice/index.d.ts",
+      "import": "./dist/brands/AgentVoice/index.js",
+      "require": "./dist/brands/AgentVoice/index.cjs"
+    },
+    "./Agui": {
+      "types": "./dist/brands/Agui/index.d.ts",
+      "import": "./dist/brands/Agui/index.js",
+      "require": "./dist/brands/Agui/index.cjs"
+    },
+    "./Ai2": {
+      "types": "./dist/brands/Ai2/index.d.ts",
+      "import": "./dist/brands/Ai2/index.js",
+      "require": "./dist/brands/Ai2/index.cjs"
+    },
+    "./Ai21": {
+      "types": "./dist/brands/Ai21/index.d.ts",
+      "import": "./dist/brands/Ai21/index.js",
+      "require": "./dist/brands/Ai21/index.cjs"
+    },
+    "./Ai302": {
+      "types": "./dist/brands/Ai302/index.d.ts",
+      "import": "./dist/brands/Ai302/index.js",
+      "require": "./dist/brands/Ai302/index.cjs"
+    },
+    "./Ai360": {
+      "types": "./dist/brands/Ai360/index.d.ts",
+      "import": "./dist/brands/Ai360/index.js",
+      "require": "./dist/brands/Ai360/index.cjs"
+    },
+    "./AiHubMix": {
+      "types": "./dist/brands/AiHubMix/index.d.ts",
+      "import": "./dist/brands/AiHubMix/index.js",
+      "require": "./dist/brands/AiHubMix/index.cjs"
+    },
+    "./AiMass": {
+      "types": "./dist/brands/AiMass/index.d.ts",
+      "import": "./dist/brands/AiMass/index.js",
+      "require": "./dist/brands/AiMass/index.cjs"
+    },
+    "./AiStudio": {
+      "types": "./dist/brands/AiStudio/index.d.ts",
+      "import": "./dist/brands/AiStudio/index.js",
+      "require": "./dist/brands/AiStudio/index.cjs"
+    },
+    "./AionLabs": {
+      "types": "./dist/brands/AionLabs/index.d.ts",
+      "import": "./dist/brands/AionLabs/index.js",
+      "require": "./dist/brands/AionLabs/index.cjs"
+    },
+    "./AkashChat": {
+      "types": "./dist/brands/AkashChat/index.d.ts",
+      "import": "./dist/brands/AkashChat/index.js",
+      "require": "./dist/brands/AkashChat/index.cjs"
+    },
+    "./AlephAlpha": {
+      "types": "./dist/brands/AlephAlpha/index.d.ts",
+      "import": "./dist/brands/AlephAlpha/index.js",
+      "require": "./dist/brands/AlephAlpha/index.cjs"
+    },
+    "./Alibaba": {
+      "types": "./dist/brands/Alibaba/index.d.ts",
+      "import": "./dist/brands/Alibaba/index.js",
+      "require": "./dist/brands/Alibaba/index.cjs"
+    },
+    "./AlibabaCloud": {
+      "types": "./dist/brands/AlibabaCloud/index.d.ts",
+      "import": "./dist/brands/AlibabaCloud/index.js",
+      "require": "./dist/brands/AlibabaCloud/index.cjs"
+    },
+    "./Amp": {
+      "types": "./dist/brands/Amp/index.d.ts",
+      "import": "./dist/brands/Amp/index.js",
+      "require": "./dist/brands/Amp/index.cjs"
+    },
+    "./AntGroup": {
+      "types": "./dist/brands/AntGroup/index.d.ts",
+      "import": "./dist/brands/AntGroup/index.js",
+      "require": "./dist/brands/AntGroup/index.cjs"
+    },
+    "./Anthropic": {
+      "types": "./dist/brands/Anthropic/index.d.ts",
+      "import": "./dist/brands/Anthropic/index.js",
+      "require": "./dist/brands/Anthropic/index.cjs"
+    },
+    "./Antigravity": {
+      "types": "./dist/brands/Antigravity/index.d.ts",
+      "import": "./dist/brands/Antigravity/index.js",
+      "require": "./dist/brands/Antigravity/index.cjs"
+    },
+    "./Anyscale": {
+      "types": "./dist/brands/Anyscale/index.d.ts",
+      "import": "./dist/brands/Anyscale/index.js",
+      "require": "./dist/brands/Anyscale/index.cjs"
+    },
+    "./Apertis": {
+      "types": "./dist/brands/Apertis/index.d.ts",
+      "import": "./dist/brands/Apertis/index.js",
+      "require": "./dist/brands/Apertis/index.cjs"
+    },
+    "./Apple": {
+      "types": "./dist/brands/Apple/index.d.ts",
+      "import": "./dist/brands/Apple/index.js",
+      "require": "./dist/brands/Apple/index.cjs"
+    },
+    "./Arcee": {
+      "types": "./dist/brands/Arcee/index.d.ts",
+      "import": "./dist/brands/Arcee/index.js",
+      "require": "./dist/brands/Arcee/index.cjs"
+    },
+    "./AskVerdict": {
+      "types": "./dist/brands/AskVerdict/index.d.ts",
+      "import": "./dist/brands/AskVerdict/index.js",
+      "require": "./dist/brands/AskVerdict/index.cjs"
+    },
+    "./AssemblyAI": {
+      "types": "./dist/brands/AssemblyAI/index.d.ts",
+      "import": "./dist/brands/AssemblyAI/index.js",
+      "require": "./dist/brands/AssemblyAI/index.cjs"
+    },
+    "./AtlasCloud": {
+      "types": "./dist/brands/AtlasCloud/index.d.ts",
+      "import": "./dist/brands/AtlasCloud/index.js",
+      "require": "./dist/brands/AtlasCloud/index.cjs"
+    },
+    "./Automatic": {
+      "types": "./dist/brands/Automatic/index.d.ts",
+      "import": "./dist/brands/Automatic/index.js",
+      "require": "./dist/brands/Automatic/index.cjs"
+    },
+    "./Aws": {
+      "types": "./dist/brands/Aws/index.d.ts",
+      "import": "./dist/brands/Aws/index.js",
+      "require": "./dist/brands/Aws/index.cjs"
+    },
+    "./Aya": {
+      "types": "./dist/brands/Aya/index.d.ts",
+      "import": "./dist/brands/Aya/index.js",
+      "require": "./dist/brands/Aya/index.cjs"
+    },
+    "./Azure": {
+      "types": "./dist/brands/Azure/index.d.ts",
+      "import": "./dist/brands/Azure/index.js",
+      "require": "./dist/brands/Azure/index.cjs"
+    },
+    "./AzureAI": {
+      "types": "./dist/brands/AzureAI/index.d.ts",
+      "import": "./dist/brands/AzureAI/index.js",
+      "require": "./dist/brands/AzureAI/index.cjs"
+    },
+    "./BAAI": {
+      "types": "./dist/brands/BAAI/index.d.ts",
+      "import": "./dist/brands/BAAI/index.js",
+      "require": "./dist/brands/BAAI/index.cjs"
+    },
+    "./Baichuan": {
+      "types": "./dist/brands/Baichuan/index.d.ts",
+      "import": "./dist/brands/Baichuan/index.js",
+      "require": "./dist/brands/Baichuan/index.cjs"
+    },
+    "./Baidu": {
+      "types": "./dist/brands/Baidu/index.d.ts",
+      "import": "./dist/brands/Baidu/index.js",
+      "require": "./dist/brands/Baidu/index.cjs"
+    },
+    "./BaiduCloud": {
+      "types": "./dist/brands/BaiduCloud/index.d.ts",
+      "import": "./dist/brands/BaiduCloud/index.js",
+      "require": "./dist/brands/BaiduCloud/index.cjs"
+    },
+    "./Bailian": {
+      "types": "./dist/brands/Bailian/index.d.ts",
+      "import": "./dist/brands/Bailian/index.js",
+      "require": "./dist/brands/Bailian/index.cjs"
+    },
+    "./Baseten": {
+      "types": "./dist/brands/Baseten/index.d.ts",
+      "import": "./dist/brands/Baseten/index.js",
+      "require": "./dist/brands/Baseten/index.cjs"
+    },
+    "./Bedrock": {
+      "types": "./dist/brands/Bedrock/index.d.ts",
+      "import": "./dist/brands/Bedrock/index.js",
+      "require": "./dist/brands/Bedrock/index.cjs"
+    },
+    "./Bfl": {
+      "types": "./dist/brands/Bfl/index.d.ts",
+      "import": "./dist/brands/Bfl/index.js",
+      "require": "./dist/brands/Bfl/index.cjs"
+    },
+    "./Bilibili": {
+      "types": "./dist/brands/Bilibili/index.d.ts",
+      "import": "./dist/brands/Bilibili/index.js",
+      "require": "./dist/brands/Bilibili/index.cjs"
+    },
+    "./BilibiliIndex": {
+      "types": "./dist/brands/BilibiliIndex/index.d.ts",
+      "import": "./dist/brands/BilibiliIndex/index.js",
+      "require": "./dist/brands/BilibiliIndex/index.cjs"
+    },
+    "./Bing": {
+      "types": "./dist/brands/Bing/index.d.ts",
+      "import": "./dist/brands/Bing/index.js",
+      "require": "./dist/brands/Bing/index.cjs"
+    },
+    "./BriaAI": {
+      "types": "./dist/brands/BriaAI/index.d.ts",
+      "import": "./dist/brands/BriaAI/index.js",
+      "require": "./dist/brands/BriaAI/index.cjs"
+    },
+    "./BurnCloud": {
+      "types": "./dist/brands/BurnCloud/index.d.ts",
+      "import": "./dist/brands/BurnCloud/index.js",
+      "require": "./dist/brands/BurnCloud/index.cjs"
+    },
+    "./ByteDance": {
+      "types": "./dist/brands/ByteDance/index.d.ts",
+      "import": "./dist/brands/ByteDance/index.js",
+      "require": "./dist/brands/ByteDance/index.cjs"
+    },
+    "./CapCut": {
+      "types": "./dist/brands/CapCut/index.d.ts",
+      "import": "./dist/brands/CapCut/index.js",
+      "require": "./dist/brands/CapCut/index.cjs"
+    },
+    "./CentML": {
+      "types": "./dist/brands/CentML/index.d.ts",
+      "import": "./dist/brands/CentML/index.js",
+      "require": "./dist/brands/CentML/index.cjs"
+    },
+    "./Cerebras": {
+      "types": "./dist/brands/Cerebras/index.d.ts",
+      "import": "./dist/brands/Cerebras/index.js",
+      "require": "./dist/brands/Cerebras/index.cjs"
+    },
+    "./ChatGLM": {
+      "types": "./dist/brands/ChatGLM/index.d.ts",
+      "import": "./dist/brands/ChatGLM/index.js",
+      "require": "./dist/brands/ChatGLM/index.cjs"
+    },
+    "./CherryStudio": {
+      "types": "./dist/brands/CherryStudio/index.d.ts",
+      "import": "./dist/brands/CherryStudio/index.js",
+      "require": "./dist/brands/CherryStudio/index.cjs"
+    },
+    "./Civitai": {
+      "types": "./dist/brands/Civitai/index.d.ts",
+      "import": "./dist/brands/Civitai/index.js",
+      "require": "./dist/brands/Civitai/index.cjs"
+    },
+    "./Claude": {
+      "types": "./dist/brands/Claude/index.d.ts",
+      "import": "./dist/brands/Claude/index.js",
+      "require": "./dist/brands/Claude/index.cjs"
+    },
+    "./ClaudeCode": {
+      "types": "./dist/brands/ClaudeCode/index.d.ts",
+      "import": "./dist/brands/ClaudeCode/index.js",
+      "require": "./dist/brands/ClaudeCode/index.cjs"
+    },
+    "./Cline": {
+      "types": "./dist/brands/Cline/index.d.ts",
+      "import": "./dist/brands/Cline/index.js",
+      "require": "./dist/brands/Cline/index.cjs"
+    },
+    "./Clipdrop": {
+      "types": "./dist/brands/Clipdrop/index.d.ts",
+      "import": "./dist/brands/Clipdrop/index.js",
+      "require": "./dist/brands/Clipdrop/index.cjs"
+    },
+    "./Cloudflare": {
+      "types": "./dist/brands/Cloudflare/index.d.ts",
+      "import": "./dist/brands/Cloudflare/index.js",
+      "require": "./dist/brands/Cloudflare/index.cjs"
+    },
+    "./CodeBuddy": {
+      "types": "./dist/brands/CodeBuddy/index.d.ts",
+      "import": "./dist/brands/CodeBuddy/index.js",
+      "require": "./dist/brands/CodeBuddy/index.cjs"
+    },
+    "./CodeFlicker": {
+      "types": "./dist/brands/CodeFlicker/index.d.ts",
+      "import": "./dist/brands/CodeFlicker/index.js",
+      "require": "./dist/brands/CodeFlicker/index.cjs"
+    },
+    "./CodeGeeX": {
+      "types": "./dist/brands/CodeGeeX/index.d.ts",
+      "import": "./dist/brands/CodeGeeX/index.js",
+      "require": "./dist/brands/CodeGeeX/index.cjs"
+    },
+    "./Codex": {
+      "types": "./dist/brands/Codex/index.d.ts",
+      "import": "./dist/brands/Codex/index.js",
+      "require": "./dist/brands/Codex/index.cjs"
+    },
+    "./CogVideo": {
+      "types": "./dist/brands/CogVideo/index.d.ts",
+      "import": "./dist/brands/CogVideo/index.js",
+      "require": "./dist/brands/CogVideo/index.cjs"
+    },
+    "./CogView": {
+      "types": "./dist/brands/CogView/index.d.ts",
+      "import": "./dist/brands/CogView/index.js",
+      "require": "./dist/brands/CogView/index.cjs"
+    },
+    "./Cohere": {
+      "types": "./dist/brands/Cohere/index.d.ts",
+      "import": "./dist/brands/Cohere/index.js",
+      "require": "./dist/brands/Cohere/index.cjs"
+    },
+    "./Colab": {
+      "types": "./dist/brands/Colab/index.d.ts",
+      "import": "./dist/brands/Colab/index.js",
+      "require": "./dist/brands/Colab/index.cjs"
+    },
+    "./CometAPI": {
+      "types": "./dist/brands/CometAPI/index.d.ts",
+      "import": "./dist/brands/CometAPI/index.js",
+      "require": "./dist/brands/CometAPI/index.cjs"
+    },
+    "./ComfyUI": {
+      "types": "./dist/brands/ComfyUI/index.d.ts",
+      "import": "./dist/brands/ComfyUI/index.js",
+      "require": "./dist/brands/ComfyUI/index.cjs"
+    },
+    "./CommandA": {
+      "types": "./dist/brands/CommandA/index.d.ts",
+      "import": "./dist/brands/CommandA/index.js",
+      "require": "./dist/brands/CommandA/index.cjs"
+    },
+    "./Copilot": {
+      "types": "./dist/brands/Copilot/index.d.ts",
+      "import": "./dist/brands/Copilot/index.js",
+      "require": "./dist/brands/Copilot/index.cjs"
+    },
+    "./CopilotKit": {
+      "types": "./dist/brands/CopilotKit/index.d.ts",
+      "import": "./dist/brands/CopilotKit/index.js",
+      "require": "./dist/brands/CopilotKit/index.cjs"
+    },
+    "./Coqui": {
+      "types": "./dist/brands/Coqui/index.d.ts",
+      "import": "./dist/brands/Coqui/index.js",
+      "require": "./dist/brands/Coqui/index.cjs"
+    },
+    "./Coze": {
+      "types": "./dist/brands/Coze/index.d.ts",
+      "import": "./dist/brands/Coze/index.js",
+      "require": "./dist/brands/Coze/index.cjs"
+    },
+    "./CrewAI": {
+      "types": "./dist/brands/CrewAI/index.d.ts",
+      "import": "./dist/brands/CrewAI/index.js",
+      "require": "./dist/brands/CrewAI/index.cjs"
+    },
+    "./Crusoe": {
+      "types": "./dist/brands/Crusoe/index.d.ts",
+      "import": "./dist/brands/Crusoe/index.js",
+      "require": "./dist/brands/Crusoe/index.cjs"
+    },
+    "./Cursor": {
+      "types": "./dist/brands/Cursor/index.d.ts",
+      "import": "./dist/brands/Cursor/index.js",
+      "require": "./dist/brands/Cursor/index.cjs"
+    },
+    "./CyberCut": {
+      "types": "./dist/brands/CyberCut/index.d.ts",
+      "import": "./dist/brands/CyberCut/index.js",
+      "require": "./dist/brands/CyberCut/index.cjs"
+    },
+    "./Dalle": {
+      "types": "./dist/brands/Dalle/index.d.ts",
+      "import": "./dist/brands/Dalle/index.js",
+      "require": "./dist/brands/Dalle/index.cjs"
+    },
+    "./Dbrx": {
+      "types": "./dist/brands/Dbrx/index.d.ts",
+      "import": "./dist/brands/Dbrx/index.js",
+      "require": "./dist/brands/Dbrx/index.cjs"
+    },
+    "./DeepAI": {
+      "types": "./dist/brands/DeepAI/index.d.ts",
+      "import": "./dist/brands/DeepAI/index.js",
+      "require": "./dist/brands/DeepAI/index.cjs"
+    },
+    "./DeepCogito": {
+      "types": "./dist/brands/DeepCogito/index.d.ts",
+      "import": "./dist/brands/DeepCogito/index.js",
+      "require": "./dist/brands/DeepCogito/index.cjs"
+    },
+    "./DeepInfra": {
+      "types": "./dist/brands/DeepInfra/index.d.ts",
+      "import": "./dist/brands/DeepInfra/index.js",
+      "require": "./dist/brands/DeepInfra/index.cjs"
+    },
+    "./DeepL": {
+      "types": "./dist/brands/DeepL/index.d.ts",
+      "import": "./dist/brands/DeepL/index.js",
+      "require": "./dist/brands/DeepL/index.cjs"
+    },
+    "./DeepMind": {
+      "types": "./dist/brands/DeepMind/index.d.ts",
+      "import": "./dist/brands/DeepMind/index.js",
+      "require": "./dist/brands/DeepMind/index.cjs"
+    },
+    "./DeepSeek": {
+      "types": "./dist/brands/DeepSeek/index.d.ts",
+      "import": "./dist/brands/DeepSeek/index.js",
+      "require": "./dist/brands/DeepSeek/index.cjs"
+    },
+    "./Dify": {
+      "types": "./dist/brands/Dify/index.d.ts",
+      "import": "./dist/brands/Dify/index.js",
+      "require": "./dist/brands/Dify/index.cjs"
+    },
+    "./Doc2X": {
+      "types": "./dist/brands/Doc2X/index.d.ts",
+      "import": "./dist/brands/Doc2X/index.js",
+      "require": "./dist/brands/Doc2X/index.cjs"
+    },
+    "./DocSearch": {
+      "types": "./dist/brands/DocSearch/index.d.ts",
+      "import": "./dist/brands/DocSearch/index.js",
+      "require": "./dist/brands/DocSearch/index.cjs"
+    },
+    "./Dolphin": {
+      "types": "./dist/brands/Dolphin/index.d.ts",
+      "import": "./dist/brands/Dolphin/index.js",
+      "require": "./dist/brands/Dolphin/index.cjs"
+    },
+    "./Doubao": {
+      "types": "./dist/brands/Doubao/index.d.ts",
+      "import": "./dist/brands/Doubao/index.js",
+      "require": "./dist/brands/Doubao/index.cjs"
+    },
+    "./DreamMachine": {
+      "types": "./dist/brands/DreamMachine/index.d.ts",
+      "import": "./dist/brands/DreamMachine/index.js",
+      "require": "./dist/brands/DreamMachine/index.cjs"
+    },
+    "./ElevenLabs": {
+      "types": "./dist/brands/ElevenLabs/index.d.ts",
+      "import": "./dist/brands/ElevenLabs/index.js",
+      "require": "./dist/brands/ElevenLabs/index.cjs"
+    },
+    "./ElevenX": {
+      "types": "./dist/brands/ElevenX/index.d.ts",
+      "import": "./dist/brands/ElevenX/index.js",
+      "require": "./dist/brands/ElevenX/index.cjs"
+    },
+    "./EssentialAI": {
+      "types": "./dist/brands/EssentialAI/index.d.ts",
+      "import": "./dist/brands/EssentialAI/index.js",
+      "require": "./dist/brands/EssentialAI/index.cjs"
+    },
+    "./Exa": {
+      "types": "./dist/brands/Exa/index.d.ts",
+      "import": "./dist/brands/Exa/index.js",
+      "require": "./dist/brands/Exa/index.cjs"
+    },
+    "./Fal": {
+      "types": "./dist/brands/Fal/index.d.ts",
+      "import": "./dist/brands/Fal/index.js",
+      "require": "./dist/brands/Fal/index.cjs"
+    },
+    "./FastGPT": {
+      "types": "./dist/brands/FastGPT/index.d.ts",
+      "import": "./dist/brands/FastGPT/index.js",
+      "require": "./dist/brands/FastGPT/index.cjs"
+    },
+    "./Featherless": {
+      "types": "./dist/brands/Featherless/index.d.ts",
+      "import": "./dist/brands/Featherless/index.js",
+      "require": "./dist/brands/Featherless/index.cjs"
+    },
+    "./Figma": {
+      "types": "./dist/brands/Figma/index.d.ts",
+      "import": "./dist/brands/Figma/index.js",
+      "require": "./dist/brands/Figma/index.cjs"
+    },
+    "./Fireworks": {
+      "types": "./dist/brands/Fireworks/index.d.ts",
+      "import": "./dist/brands/Fireworks/index.js",
+      "require": "./dist/brands/Fireworks/index.cjs"
+    },
+    "./FishAudio": {
+      "types": "./dist/brands/FishAudio/index.d.ts",
+      "import": "./dist/brands/FishAudio/index.js",
+      "require": "./dist/brands/FishAudio/index.cjs"
+    },
+    "./Flora": {
+      "types": "./dist/brands/Flora/index.d.ts",
+      "import": "./dist/brands/Flora/index.js",
+      "require": "./dist/brands/Flora/index.cjs"
+    },
+    "./Flowith": {
+      "types": "./dist/brands/Flowith/index.d.ts",
+      "import": "./dist/brands/Flowith/index.js",
+      "require": "./dist/brands/Flowith/index.cjs"
+    },
+    "./Flux": {
+      "types": "./dist/brands/Flux/index.d.ts",
+      "import": "./dist/brands/Flux/index.js",
+      "require": "./dist/brands/Flux/index.cjs"
+    },
+    "./Friendli": {
+      "types": "./dist/brands/Friendli/index.d.ts",
+      "import": "./dist/brands/Friendli/index.js",
+      "require": "./dist/brands/Friendli/index.cjs"
+    },
+    "./GLMV": {
+      "types": "./dist/brands/GLMV/index.d.ts",
+      "import": "./dist/brands/GLMV/index.js",
+      "require": "./dist/brands/GLMV/index.cjs"
+    },
+    "./Gemini": {
+      "types": "./dist/brands/Gemini/index.d.ts",
+      "import": "./dist/brands/Gemini/index.js",
+      "require": "./dist/brands/Gemini/index.cjs"
+    },
+    "./GeminiCLI": {
+      "types": "./dist/brands/GeminiCLI/index.d.ts",
+      "import": "./dist/brands/GeminiCLI/index.js",
+      "require": "./dist/brands/GeminiCLI/index.cjs"
+    },
+    "./Gemma": {
+      "types": "./dist/brands/Gemma/index.d.ts",
+      "import": "./dist/brands/Gemma/index.js",
+      "require": "./dist/brands/Gemma/index.cjs"
+    },
+    "./GiteeAI": {
+      "types": "./dist/brands/GiteeAI/index.d.ts",
+      "import": "./dist/brands/GiteeAI/index.js",
+      "require": "./dist/brands/GiteeAI/index.cjs"
+    },
+    "./Github": {
+      "types": "./dist/brands/Github/index.d.ts",
+      "import": "./dist/brands/Github/index.js",
+      "require": "./dist/brands/Github/index.cjs"
+    },
+    "./GithubCopilot": {
+      "types": "./dist/brands/GithubCopilot/index.d.ts",
+      "import": "./dist/brands/GithubCopilot/index.js",
+      "require": "./dist/brands/GithubCopilot/index.cjs"
+    },
+    "./Glama": {
+      "types": "./dist/brands/Glama/index.d.ts",
+      "import": "./dist/brands/Glama/index.js",
+      "require": "./dist/brands/Glama/index.cjs"
+    },
+    "./Glif": {
+      "types": "./dist/brands/Glif/index.d.ts",
+      "import": "./dist/brands/Glif/index.js",
+      "require": "./dist/brands/Glif/index.cjs"
+    },
+    "./Google": {
+      "types": "./dist/brands/Google/index.d.ts",
+      "import": "./dist/brands/Google/index.js",
+      "require": "./dist/brands/Google/index.cjs"
+    },
+    "./GoogleCloud": {
+      "types": "./dist/brands/GoogleCloud/index.d.ts",
+      "import": "./dist/brands/GoogleCloud/index.js",
+      "require": "./dist/brands/GoogleCloud/index.cjs"
+    },
+    "./Goose": {
+      "types": "./dist/brands/Goose/index.d.ts",
+      "import": "./dist/brands/Goose/index.js",
+      "require": "./dist/brands/Goose/index.cjs"
+    },
+    "./Gradio": {
+      "types": "./dist/brands/Gradio/index.d.ts",
+      "import": "./dist/brands/Gradio/index.js",
+      "require": "./dist/brands/Gradio/index.cjs"
+    },
+    "./Greptile": {
+      "types": "./dist/brands/Greptile/index.d.ts",
+      "import": "./dist/brands/Greptile/index.js",
+      "require": "./dist/brands/Greptile/index.cjs"
+    },
+    "./Grok": {
+      "types": "./dist/brands/Grok/index.d.ts",
+      "import": "./dist/brands/Grok/index.js",
+      "require": "./dist/brands/Grok/index.cjs"
+    },
+    "./Groq": {
+      "types": "./dist/brands/Groq/index.d.ts",
+      "import": "./dist/brands/Groq/index.js",
+      "require": "./dist/brands/Groq/index.cjs"
+    },
+    "./Hailuo": {
+      "types": "./dist/brands/Hailuo/index.d.ts",
+      "import": "./dist/brands/Hailuo/index.js",
+      "require": "./dist/brands/Hailuo/index.cjs"
+    },
+    "./Haiper": {
+      "types": "./dist/brands/Haiper/index.d.ts",
+      "import": "./dist/brands/Haiper/index.js",
+      "require": "./dist/brands/Haiper/index.cjs"
+    },
+    "./Hedra": {
+      "types": "./dist/brands/Hedra/index.d.ts",
+      "import": "./dist/brands/Hedra/index.js",
+      "require": "./dist/brands/Hedra/index.cjs"
+    },
+    "./HermesAgent": {
+      "types": "./dist/brands/HermesAgent/index.d.ts",
+      "import": "./dist/brands/HermesAgent/index.js",
+      "require": "./dist/brands/HermesAgent/index.cjs"
+    },
+    "./Higress": {
+      "types": "./dist/brands/Higress/index.d.ts",
+      "import": "./dist/brands/Higress/index.js",
+      "require": "./dist/brands/Higress/index.cjs"
+    },
+    "./Huawei": {
+      "types": "./dist/brands/Huawei/index.d.ts",
+      "import": "./dist/brands/Huawei/index.js",
+      "require": "./dist/brands/Huawei/index.cjs"
+    },
+    "./HuaweiCloud": {
+      "types": "./dist/brands/HuaweiCloud/index.d.ts",
+      "import": "./dist/brands/HuaweiCloud/index.js",
+      "require": "./dist/brands/HuaweiCloud/index.cjs"
+    },
+    "./HuggingFace": {
+      "types": "./dist/brands/HuggingFace/index.d.ts",
+      "import": "./dist/brands/HuggingFace/index.js",
+      "require": "./dist/brands/HuggingFace/index.cjs"
+    },
+    "./Hunyuan": {
+      "types": "./dist/brands/Hunyuan/index.d.ts",
+      "import": "./dist/brands/Hunyuan/index.js",
+      "require": "./dist/brands/Hunyuan/index.cjs"
+    },
+    "./Hyperbolic": {
+      "types": "./dist/brands/Hyperbolic/index.d.ts",
+      "import": "./dist/brands/Hyperbolic/index.js",
+      "require": "./dist/brands/Hyperbolic/index.cjs"
+    },
+    "./IBM": {
+      "types": "./dist/brands/IBM/index.d.ts",
+      "import": "./dist/brands/IBM/index.js",
+      "require": "./dist/brands/IBM/index.cjs"
+    },
+    "./IFlyTekCloud": {
+      "types": "./dist/brands/IFlyTekCloud/index.d.ts",
+      "import": "./dist/brands/IFlyTekCloud/index.js",
+      "require": "./dist/brands/IFlyTekCloud/index.cjs"
+    },
+    "./Ideogram": {
+      "types": "./dist/brands/Ideogram/index.d.ts",
+      "import": "./dist/brands/Ideogram/index.js",
+      "require": "./dist/brands/Ideogram/index.cjs"
+    },
+    "./Inception": {
+      "types": "./dist/brands/Inception/index.d.ts",
+      "import": "./dist/brands/Inception/index.js",
+      "require": "./dist/brands/Inception/index.cjs"
+    },
+    "./Inference": {
+      "types": "./dist/brands/Inference/index.d.ts",
+      "import": "./dist/brands/Inference/index.js",
+      "require": "./dist/brands/Inference/index.cjs"
+    },
+    "./Infermatic": {
+      "types": "./dist/brands/Infermatic/index.d.ts",
+      "import": "./dist/brands/Infermatic/index.js",
+      "require": "./dist/brands/Infermatic/index.cjs"
+    },
+    "./Infinigence": {
+      "types": "./dist/brands/Infinigence/index.d.ts",
+      "import": "./dist/brands/Infinigence/index.js",
+      "require": "./dist/brands/Infinigence/index.cjs"
+    },
+    "./Inflection": {
+      "types": "./dist/brands/Inflection/index.d.ts",
+      "import": "./dist/brands/Inflection/index.js",
+      "require": "./dist/brands/Inflection/index.cjs"
+    },
+    "./InternLM": {
+      "types": "./dist/brands/InternLM/index.d.ts",
+      "import": "./dist/brands/InternLM/index.js",
+      "require": "./dist/brands/InternLM/index.cjs"
+    },
+    "./Jimeng": {
+      "types": "./dist/brands/Jimeng/index.d.ts",
+      "import": "./dist/brands/Jimeng/index.js",
+      "require": "./dist/brands/Jimeng/index.cjs"
+    },
+    "./Jina": {
+      "types": "./dist/brands/Jina/index.d.ts",
+      "import": "./dist/brands/Jina/index.js",
+      "require": "./dist/brands/Jina/index.cjs"
+    },
+    "./Junie": {
+      "types": "./dist/brands/Junie/index.d.ts",
+      "import": "./dist/brands/Junie/index.js",
+      "require": "./dist/brands/Junie/index.cjs"
+    },
+    "./KiloCode": {
+      "types": "./dist/brands/KiloCode/index.d.ts",
+      "import": "./dist/brands/KiloCode/index.js",
+      "require": "./dist/brands/KiloCode/index.cjs"
+    },
+    "./Kimi": {
+      "types": "./dist/brands/Kimi/index.d.ts",
+      "import": "./dist/brands/Kimi/index.js",
+      "require": "./dist/brands/Kimi/index.cjs"
+    },
+    "./Kling": {
+      "types": "./dist/brands/Kling/index.d.ts",
+      "import": "./dist/brands/Kling/index.js",
+      "require": "./dist/brands/Kling/index.cjs"
+    },
+    "./Kluster": {
+      "types": "./dist/brands/Kluster/index.d.ts",
+      "import": "./dist/brands/Kluster/index.js",
+      "require": "./dist/brands/Kluster/index.cjs"
+    },
+    "./Kolors": {
+      "types": "./dist/brands/Kolors/index.d.ts",
+      "import": "./dist/brands/Kolors/index.js",
+      "require": "./dist/brands/Kolors/index.cjs"
+    },
+    "./Krea": {
+      "types": "./dist/brands/Krea/index.d.ts",
+      "import": "./dist/brands/Krea/index.js",
+      "require": "./dist/brands/Krea/index.cjs"
+    },
+    "./KwaiKAT": {
+      "types": "./dist/brands/KwaiKAT/index.d.ts",
+      "import": "./dist/brands/KwaiKAT/index.js",
+      "require": "./dist/brands/KwaiKAT/index.cjs"
+    },
+    "./Kwaipilot": {
+      "types": "./dist/brands/Kwaipilot/index.d.ts",
+      "import": "./dist/brands/Kwaipilot/index.js",
+      "require": "./dist/brands/Kwaipilot/index.cjs"
+    },
+    "./LG": {
+      "types": "./dist/brands/LG/index.d.ts",
+      "import": "./dist/brands/LG/index.js",
+      "require": "./dist/brands/LG/index.cjs"
+    },
+    "./LLaVA": {
+      "types": "./dist/brands/LLaVA/index.d.ts",
+      "import": "./dist/brands/LLaVA/index.js",
+      "require": "./dist/brands/LLaVA/index.cjs"
+    },
+    "./Lambda": {
+      "types": "./dist/brands/Lambda/index.d.ts",
+      "import": "./dist/brands/Lambda/index.js",
+      "require": "./dist/brands/Lambda/index.cjs"
+    },
+    "./LangChain": {
+      "types": "./dist/brands/LangChain/index.d.ts",
+      "import": "./dist/brands/LangChain/index.js",
+      "require": "./dist/brands/LangChain/index.cjs"
+    },
+    "./LangGraph": {
+      "types": "./dist/brands/LangGraph/index.d.ts",
+      "import": "./dist/brands/LangGraph/index.js",
+      "require": "./dist/brands/LangGraph/index.cjs"
+    },
+    "./LangSmith": {
+      "types": "./dist/brands/LangSmith/index.d.ts",
+      "import": "./dist/brands/LangSmith/index.js",
+      "require": "./dist/brands/LangSmith/index.cjs"
+    },
+    "./Langfuse": {
+      "types": "./dist/brands/Langfuse/index.d.ts",
+      "import": "./dist/brands/Langfuse/index.js",
+      "require": "./dist/brands/Langfuse/index.cjs"
+    },
+    "./LeptonAI": {
+      "types": "./dist/brands/LeptonAI/index.d.ts",
+      "import": "./dist/brands/LeptonAI/index.js",
+      "require": "./dist/brands/LeptonAI/index.cjs"
+    },
+    "./Lightricks": {
+      "types": "./dist/brands/Lightricks/index.d.ts",
+      "import": "./dist/brands/Lightricks/index.js",
+      "require": "./dist/brands/Lightricks/index.cjs"
+    },
+    "./Liquid": {
+      "types": "./dist/brands/Liquid/index.d.ts",
+      "import": "./dist/brands/Liquid/index.js",
+      "require": "./dist/brands/Liquid/index.cjs"
+    },
+    "./LiveKit": {
+      "types": "./dist/brands/LiveKit/index.d.ts",
+      "import": "./dist/brands/LiveKit/index.js",
+      "require": "./dist/brands/LiveKit/index.cjs"
+    },
+    "./LlamaIndex": {
+      "types": "./dist/brands/LlamaIndex/index.d.ts",
+      "import": "./dist/brands/LlamaIndex/index.js",
+      "require": "./dist/brands/LlamaIndex/index.cjs"
+    },
+    "./LlmApi": {
+      "types": "./dist/brands/LlmApi/index.d.ts",
+      "import": "./dist/brands/LlmApi/index.js",
+      "require": "./dist/brands/LlmApi/index.cjs"
+    },
+    "./LmStudio": {
+      "types": "./dist/brands/LmStudio/index.d.ts",
+      "import": "./dist/brands/LmStudio/index.js",
+      "require": "./dist/brands/LmStudio/index.cjs"
+    },
+    "./LobeHub": {
+      "types": "./dist/brands/LobeHub/index.d.ts",
+      "import": "./dist/brands/LobeHub/index.js",
+      "require": "./dist/brands/LobeHub/index.cjs"
+    },
+    "./LongCat": {
+      "types": "./dist/brands/LongCat/index.d.ts",
+      "import": "./dist/brands/LongCat/index.js",
+      "require": "./dist/brands/LongCat/index.cjs"
+    },
+    "./Lovable": {
+      "types": "./dist/brands/Lovable/index.d.ts",
+      "import": "./dist/brands/Lovable/index.js",
+      "require": "./dist/brands/Lovable/index.cjs"
+    },
+    "./Lovart": {
+      "types": "./dist/brands/Lovart/index.d.ts",
+      "import": "./dist/brands/Lovart/index.js",
+      "require": "./dist/brands/Lovart/index.cjs"
+    },
+    "./Luma": {
+      "types": "./dist/brands/Luma/index.d.ts",
+      "import": "./dist/brands/Luma/index.js",
+      "require": "./dist/brands/Luma/index.cjs"
+    },
+    "./MCP": {
+      "types": "./dist/brands/MCP/index.d.ts",
+      "import": "./dist/brands/MCP/index.js",
+      "require": "./dist/brands/MCP/index.cjs"
+    },
+    "./Magic": {
+      "types": "./dist/brands/Magic/index.d.ts",
+      "import": "./dist/brands/Magic/index.js",
+      "require": "./dist/brands/Magic/index.cjs"
+    },
+    "./Make": {
+      "types": "./dist/brands/Make/index.d.ts",
+      "import": "./dist/brands/Make/index.js",
+      "require": "./dist/brands/Make/index.cjs"
+    },
+    "./Manus": {
+      "types": "./dist/brands/Manus/index.d.ts",
+      "import": "./dist/brands/Manus/index.js",
+      "require": "./dist/brands/Manus/index.cjs"
+    },
+    "./Mastra": {
+      "types": "./dist/brands/Mastra/index.d.ts",
+      "import": "./dist/brands/Mastra/index.js",
+      "require": "./dist/brands/Mastra/index.cjs"
+    },
+    "./McpSo": {
+      "types": "./dist/brands/McpSo/index.d.ts",
+      "import": "./dist/brands/McpSo/index.js",
+      "require": "./dist/brands/McpSo/index.cjs"
+    },
+    "./Menlo": {
+      "types": "./dist/brands/Menlo/index.d.ts",
+      "import": "./dist/brands/Menlo/index.js",
+      "require": "./dist/brands/Menlo/index.cjs"
+    },
+    "./Meshy": {
+      "types": "./dist/brands/Meshy/index.d.ts",
+      "import": "./dist/brands/Meshy/index.js",
+      "require": "./dist/brands/Meshy/index.cjs"
+    },
+    "./Meta": {
+      "types": "./dist/brands/Meta/index.d.ts",
+      "import": "./dist/brands/Meta/index.js",
+      "require": "./dist/brands/Meta/index.cjs"
+    },
+    "./MetaAI": {
+      "types": "./dist/brands/MetaAI/index.d.ts",
+      "import": "./dist/brands/MetaAI/index.js",
+      "require": "./dist/brands/MetaAI/index.cjs"
+    },
+    "./MetaGPT": {
+      "types": "./dist/brands/MetaGPT/index.d.ts",
+      "import": "./dist/brands/MetaGPT/index.js",
+      "require": "./dist/brands/MetaGPT/index.cjs"
+    },
+    "./Microsoft": {
+      "types": "./dist/brands/Microsoft/index.d.ts",
+      "import": "./dist/brands/Microsoft/index.js",
+      "require": "./dist/brands/Microsoft/index.cjs"
+    },
+    "./Midjourney": {
+      "types": "./dist/brands/Midjourney/index.d.ts",
+      "import": "./dist/brands/Midjourney/index.js",
+      "require": "./dist/brands/Midjourney/index.cjs"
+    },
+    "./Minimax": {
+      "types": "./dist/brands/Minimax/index.d.ts",
+      "import": "./dist/brands/Minimax/index.js",
+      "require": "./dist/brands/Minimax/index.cjs"
+    },
+    "./Mistral": {
+      "types": "./dist/brands/Mistral/index.d.ts",
+      "import": "./dist/brands/Mistral/index.js",
+      "require": "./dist/brands/Mistral/index.cjs"
+    },
+    "./ModelScope": {
+      "types": "./dist/brands/ModelScope/index.d.ts",
+      "import": "./dist/brands/ModelScope/index.js",
+      "require": "./dist/brands/ModelScope/index.cjs"
+    },
+    "./Monica": {
+      "types": "./dist/brands/Monica/index.d.ts",
+      "import": "./dist/brands/Monica/index.js",
+      "require": "./dist/brands/Monica/index.cjs"
+    },
+    "./Moonshot": {
+      "types": "./dist/brands/Moonshot/index.d.ts",
+      "import": "./dist/brands/Moonshot/index.js",
+      "require": "./dist/brands/Moonshot/index.cjs"
+    },
+    "./Morph": {
+      "types": "./dist/brands/Morph/index.d.ts",
+      "import": "./dist/brands/Morph/index.js",
+      "require": "./dist/brands/Morph/index.cjs"
+    },
+    "./MyShell": {
+      "types": "./dist/brands/MyShell/index.d.ts",
+      "import": "./dist/brands/MyShell/index.js",
+      "require": "./dist/brands/MyShell/index.cjs"
+    },
+    "./N8n": {
+      "types": "./dist/brands/N8n/index.d.ts",
+      "import": "./dist/brands/N8n/index.js",
+      "require": "./dist/brands/N8n/index.cjs"
+    },
+    "./NPLCloud": {
+      "types": "./dist/brands/NPLCloud/index.d.ts",
+      "import": "./dist/brands/NPLCloud/index.js",
+      "require": "./dist/brands/NPLCloud/index.cjs"
+    },
+    "./NanoBanana": {
+      "types": "./dist/brands/NanoBanana/index.d.ts",
+      "import": "./dist/brands/NanoBanana/index.js",
+      "require": "./dist/brands/NanoBanana/index.cjs"
+    },
+    "./Nebius": {
+      "types": "./dist/brands/Nebius/index.d.ts",
+      "import": "./dist/brands/Nebius/index.js",
+      "require": "./dist/brands/Nebius/index.cjs"
+    },
+    "./NewAPI": {
+      "types": "./dist/brands/NewAPI/index.d.ts",
+      "import": "./dist/brands/NewAPI/index.js",
+      "require": "./dist/brands/NewAPI/index.cjs"
+    },
+    "./NotebookLM": {
+      "types": "./dist/brands/NotebookLM/index.d.ts",
+      "import": "./dist/brands/NotebookLM/index.js",
+      "require": "./dist/brands/NotebookLM/index.cjs"
+    },
+    "./Notion": {
+      "types": "./dist/brands/Notion/index.d.ts",
+      "import": "./dist/brands/Notion/index.js",
+      "require": "./dist/brands/Notion/index.cjs"
+    },
+    "./NousResearch": {
+      "types": "./dist/brands/NousResearch/index.d.ts",
+      "import": "./dist/brands/NousResearch/index.js",
+      "require": "./dist/brands/NousResearch/index.cjs"
+    },
+    "./Nova": {
+      "types": "./dist/brands/Nova/index.d.ts",
+      "import": "./dist/brands/Nova/index.js",
+      "require": "./dist/brands/Nova/index.cjs"
+    },
+    "./NovelAI": {
+      "types": "./dist/brands/NovelAI/index.d.ts",
+      "import": "./dist/brands/NovelAI/index.js",
+      "require": "./dist/brands/NovelAI/index.cjs"
+    },
+    "./Novita": {
+      "types": "./dist/brands/Novita/index.d.ts",
+      "import": "./dist/brands/Novita/index.js",
+      "require": "./dist/brands/Novita/index.cjs"
+    },
+    "./Nvidia": {
+      "types": "./dist/brands/Nvidia/index.d.ts",
+      "import": "./dist/brands/Nvidia/index.js",
+      "require": "./dist/brands/Nvidia/index.cjs"
+    },
+    "./Obsidian": {
+      "types": "./dist/brands/Obsidian/index.d.ts",
+      "import": "./dist/brands/Obsidian/index.js",
+      "require": "./dist/brands/Obsidian/index.cjs"
+    },
+    "./Ollama": {
+      "types": "./dist/brands/Ollama/index.d.ts",
+      "import": "./dist/brands/Ollama/index.js",
+      "require": "./dist/brands/Ollama/index.cjs"
+    },
+    "./OpenAI": {
+      "types": "./dist/brands/OpenAI/index.d.ts",
+      "import": "./dist/brands/OpenAI/index.js",
+      "require": "./dist/brands/OpenAI/index.cjs"
+    },
+    "./OpenChat": {
+      "types": "./dist/brands/OpenChat/index.d.ts",
+      "import": "./dist/brands/OpenChat/index.js",
+      "require": "./dist/brands/OpenChat/index.cjs"
+    },
+    "./OpenClaw": {
+      "types": "./dist/brands/OpenClaw/index.d.ts",
+      "import": "./dist/brands/OpenClaw/index.js",
+      "require": "./dist/brands/OpenClaw/index.cjs"
+    },
+    "./OpenCode": {
+      "types": "./dist/brands/OpenCode/index.d.ts",
+      "import": "./dist/brands/OpenCode/index.js",
+      "require": "./dist/brands/OpenCode/index.cjs"
+    },
+    "./OpenHands": {
+      "types": "./dist/brands/OpenHands/index.d.ts",
+      "import": "./dist/brands/OpenHands/index.js",
+      "require": "./dist/brands/OpenHands/index.cjs"
+    },
+    "./OpenRouter": {
+      "types": "./dist/brands/OpenRouter/index.d.ts",
+      "import": "./dist/brands/OpenRouter/index.js",
+      "require": "./dist/brands/OpenRouter/index.cjs"
+    },
+    "./OpenWebUI": {
+      "types": "./dist/brands/OpenWebUI/index.d.ts",
+      "import": "./dist/brands/OpenWebUI/index.js",
+      "require": "./dist/brands/OpenWebUI/index.cjs"
+    },
+    "./PPIO": {
+      "types": "./dist/brands/PPIO/index.d.ts",
+      "import": "./dist/brands/PPIO/index.js",
+      "require": "./dist/brands/PPIO/index.cjs"
+    },
+    "./PaLM": {
+      "types": "./dist/brands/PaLM/index.d.ts",
+      "import": "./dist/brands/PaLM/index.js",
+      "require": "./dist/brands/PaLM/index.cjs"
+    },
+    "./Parasail": {
+      "types": "./dist/brands/Parasail/index.d.ts",
+      "import": "./dist/brands/Parasail/index.js",
+      "require": "./dist/brands/Parasail/index.cjs"
+    },
+    "./Perplexity": {
+      "types": "./dist/brands/Perplexity/index.d.ts",
+      "import": "./dist/brands/Perplexity/index.js",
+      "require": "./dist/brands/Perplexity/index.cjs"
+    },
+    "./Phidata": {
+      "types": "./dist/brands/Phidata/index.d.ts",
+      "import": "./dist/brands/Phidata/index.js",
+      "require": "./dist/brands/Phidata/index.cjs"
+    },
+    "./Phind": {
+      "types": "./dist/brands/Phind/index.d.ts",
+      "import": "./dist/brands/Phind/index.js",
+      "require": "./dist/brands/Phind/index.cjs"
+    },
+    "./Pika": {
+      "types": "./dist/brands/Pika/index.d.ts",
+      "import": "./dist/brands/Pika/index.js",
+      "require": "./dist/brands/Pika/index.cjs"
+    },
+    "./PixVerse": {
+      "types": "./dist/brands/PixVerse/index.d.ts",
+      "import": "./dist/brands/PixVerse/index.js",
+      "require": "./dist/brands/PixVerse/index.cjs"
+    },
+    "./Player2": {
+      "types": "./dist/brands/Player2/index.d.ts",
+      "import": "./dist/brands/Player2/index.js",
+      "require": "./dist/brands/Player2/index.cjs"
+    },
+    "./Poe": {
+      "types": "./dist/brands/Poe/index.d.ts",
+      "import": "./dist/brands/Poe/index.js",
+      "require": "./dist/brands/Poe/index.cjs"
+    },
+    "./Pollinations": {
+      "types": "./dist/brands/Pollinations/index.d.ts",
+      "import": "./dist/brands/Pollinations/index.js",
+      "require": "./dist/brands/Pollinations/index.cjs"
+    },
+    "./PrunaAI": {
+      "types": "./dist/brands/PrunaAI/index.d.ts",
+      "import": "./dist/brands/PrunaAI/index.js",
+      "require": "./dist/brands/PrunaAI/index.cjs"
+    },
+    "./PydanticAI": {
+      "types": "./dist/brands/PydanticAI/index.d.ts",
+      "import": "./dist/brands/PydanticAI/index.js",
+      "require": "./dist/brands/PydanticAI/index.cjs"
+    },
+    "./Qingyan": {
+      "types": "./dist/brands/Qingyan/index.d.ts",
+      "import": "./dist/brands/Qingyan/index.js",
+      "require": "./dist/brands/Qingyan/index.cjs"
+    },
+    "./Qiniu": {
+      "types": "./dist/brands/Qiniu/index.d.ts",
+      "import": "./dist/brands/Qiniu/index.js",
+      "require": "./dist/brands/Qiniu/index.cjs"
+    },
+    "./Qoder": {
+      "types": "./dist/brands/Qoder/index.d.ts",
+      "import": "./dist/brands/Qoder/index.js",
+      "require": "./dist/brands/Qoder/index.cjs"
+    },
+    "./Qwen": {
+      "types": "./dist/brands/Qwen/index.d.ts",
+      "import": "./dist/brands/Qwen/index.js",
+      "require": "./dist/brands/Qwen/index.cjs"
+    },
+    "./RSSHub": {
+      "types": "./dist/brands/RSSHub/index.d.ts",
+      "import": "./dist/brands/RSSHub/index.js",
+      "require": "./dist/brands/RSSHub/index.cjs"
+    },
+    "./Railway": {
+      "types": "./dist/brands/Railway/index.d.ts",
+      "import": "./dist/brands/Railway/index.js",
+      "require": "./dist/brands/Railway/index.cjs"
+    },
+    "./Recraft": {
+      "types": "./dist/brands/Recraft/index.d.ts",
+      "import": "./dist/brands/Recraft/index.js",
+      "require": "./dist/brands/Recraft/index.cjs"
+    },
+    "./Relace": {
+      "types": "./dist/brands/Relace/index.d.ts",
+      "import": "./dist/brands/Relace/index.js",
+      "require": "./dist/brands/Relace/index.cjs"
+    },
+    "./Replicate": {
+      "types": "./dist/brands/Replicate/index.d.ts",
+      "import": "./dist/brands/Replicate/index.js",
+      "require": "./dist/brands/Replicate/index.cjs"
+    },
+    "./Replit": {
+      "types": "./dist/brands/Replit/index.d.ts",
+      "import": "./dist/brands/Replit/index.js",
+      "require": "./dist/brands/Replit/index.cjs"
+    },
+    "./Reve": {
+      "types": "./dist/brands/Reve/index.d.ts",
+      "import": "./dist/brands/Reve/index.js",
+      "require": "./dist/brands/Reve/index.cjs"
+    },
+    "./RooCode": {
+      "types": "./dist/brands/RooCode/index.d.ts",
+      "import": "./dist/brands/RooCode/index.js",
+      "require": "./dist/brands/RooCode/index.cjs"
+    },
+    "./Runway": {
+      "types": "./dist/brands/Runway/index.d.ts",
+      "import": "./dist/brands/Runway/index.js",
+      "require": "./dist/brands/Runway/index.cjs"
+    },
+    "./Rwkv": {
+      "types": "./dist/brands/Rwkv/index.d.ts",
+      "import": "./dist/brands/Rwkv/index.js",
+      "require": "./dist/brands/Rwkv/index.cjs"
+    },
+    "./SambaNova": {
+      "types": "./dist/brands/SambaNova/index.d.ts",
+      "import": "./dist/brands/SambaNova/index.js",
+      "require": "./dist/brands/SambaNova/index.cjs"
+    },
+    "./Search1API": {
+      "types": "./dist/brands/Search1API/index.d.ts",
+      "import": "./dist/brands/Search1API/index.js",
+      "require": "./dist/brands/Search1API/index.cjs"
+    },
+    "./SearchApi": {
+      "types": "./dist/brands/SearchApi/index.d.ts",
+      "import": "./dist/brands/SearchApi/index.js",
+      "require": "./dist/brands/SearchApi/index.cjs"
+    },
+    "./SenseNova": {
+      "types": "./dist/brands/SenseNova/index.d.ts",
+      "import": "./dist/brands/SenseNova/index.js",
+      "require": "./dist/brands/SenseNova/index.cjs"
+    },
+    "./SiliconCloud": {
+      "types": "./dist/brands/SiliconCloud/index.d.ts",
+      "import": "./dist/brands/SiliconCloud/index.js",
+      "require": "./dist/brands/SiliconCloud/index.cjs"
+    },
+    "./Skywork": {
+      "types": "./dist/brands/Skywork/index.d.ts",
+      "import": "./dist/brands/Skywork/index.js",
+      "require": "./dist/brands/Skywork/index.cjs"
+    },
+    "./Smithery": {
+      "types": "./dist/brands/Smithery/index.d.ts",
+      "import": "./dist/brands/Smithery/index.js",
+      "require": "./dist/brands/Smithery/index.cjs"
+    },
+    "./Snowflake": {
+      "types": "./dist/brands/Snowflake/index.d.ts",
+      "import": "./dist/brands/Snowflake/index.js",
+      "require": "./dist/brands/Snowflake/index.cjs"
+    },
+    "./SophNet": {
+      "types": "./dist/brands/SophNet/index.d.ts",
+      "import": "./dist/brands/SophNet/index.js",
+      "require": "./dist/brands/SophNet/index.cjs"
+    },
+    "./Sora": {
+      "types": "./dist/brands/Sora/index.d.ts",
+      "import": "./dist/brands/Sora/index.js",
+      "require": "./dist/brands/Sora/index.cjs"
+    },
+    "./Spark": {
+      "types": "./dist/brands/Spark/index.d.ts",
+      "import": "./dist/brands/Spark/index.js",
+      "require": "./dist/brands/Spark/index.cjs"
+    },
+    "./SpeedAI": {
+      "types": "./dist/brands/SpeedAI/index.d.ts",
+      "import": "./dist/brands/SpeedAI/index.js",
+      "require": "./dist/brands/SpeedAI/index.cjs"
+    },
+    "./Stability": {
+      "types": "./dist/brands/Stability/index.d.ts",
+      "import": "./dist/brands/Stability/index.js",
+      "require": "./dist/brands/Stability/index.cjs"
+    },
+    "./StateCloud": {
+      "types": "./dist/brands/StateCloud/index.d.ts",
+      "import": "./dist/brands/StateCloud/index.js",
+      "require": "./dist/brands/StateCloud/index.cjs"
+    },
+    "./Stepfun": {
+      "types": "./dist/brands/Stepfun/index.d.ts",
+      "import": "./dist/brands/Stepfun/index.js",
+      "require": "./dist/brands/Stepfun/index.cjs"
+    },
+    "./Straico": {
+      "types": "./dist/brands/Straico/index.d.ts",
+      "import": "./dist/brands/Straico/index.js",
+      "require": "./dist/brands/Straico/index.cjs"
+    },
+    "./StreamLake": {
+      "types": "./dist/brands/StreamLake/index.d.ts",
+      "import": "./dist/brands/StreamLake/index.js",
+      "require": "./dist/brands/StreamLake/index.cjs"
+    },
+    "./SubModel": {
+      "types": "./dist/brands/SubModel/index.d.ts",
+      "import": "./dist/brands/SubModel/index.js",
+      "require": "./dist/brands/SubModel/index.cjs"
+    },
+    "./Suno": {
+      "types": "./dist/brands/Suno/index.d.ts",
+      "import": "./dist/brands/Suno/index.js",
+      "require": "./dist/brands/Suno/index.cjs"
+    },
+    "./Sync": {
+      "types": "./dist/brands/Sync/index.d.ts",
+      "import": "./dist/brands/Sync/index.js",
+      "require": "./dist/brands/Sync/index.cjs"
+    },
+    "./TII": {
+      "types": "./dist/brands/TII/index.d.ts",
+      "import": "./dist/brands/TII/index.js",
+      "require": "./dist/brands/TII/index.cjs"
+    },
+    "./Targon": {
+      "types": "./dist/brands/Targon/index.d.ts",
+      "import": "./dist/brands/Targon/index.js",
+      "require": "./dist/brands/Targon/index.cjs"
+    },
+    "./Tavily": {
+      "types": "./dist/brands/Tavily/index.d.ts",
+      "import": "./dist/brands/Tavily/index.js",
+      "require": "./dist/brands/Tavily/index.cjs"
+    },
+    "./Tencent": {
+      "types": "./dist/brands/Tencent/index.d.ts",
+      "import": "./dist/brands/Tencent/index.js",
+      "require": "./dist/brands/Tencent/index.cjs"
+    },
+    "./TencentCloud": {
+      "types": "./dist/brands/TencentCloud/index.d.ts",
+      "import": "./dist/brands/TencentCloud/index.js",
+      "require": "./dist/brands/TencentCloud/index.cjs"
+    },
+    "./Tiangong": {
+      "types": "./dist/brands/Tiangong/index.d.ts",
+      "import": "./dist/brands/Tiangong/index.js",
+      "require": "./dist/brands/Tiangong/index.cjs"
+    },
+    "./Together": {
+      "types": "./dist/brands/Together/index.d.ts",
+      "import": "./dist/brands/Together/index.js",
+      "require": "./dist/brands/Together/index.cjs"
+    },
+    "./TopazLabs": {
+      "types": "./dist/brands/TopazLabs/index.d.ts",
+      "import": "./dist/brands/TopazLabs/index.js",
+      "require": "./dist/brands/TopazLabs/index.cjs"
+    },
+    "./Trae": {
+      "types": "./dist/brands/Trae/index.d.ts",
+      "import": "./dist/brands/Trae/index.js",
+      "require": "./dist/brands/Trae/index.cjs"
+    },
+    "./Tripo": {
+      "types": "./dist/brands/Tripo/index.d.ts",
+      "import": "./dist/brands/Tripo/index.js",
+      "require": "./dist/brands/Tripo/index.cjs"
+    },
+    "./TuriX": {
+      "types": "./dist/brands/TuriX/index.d.ts",
+      "import": "./dist/brands/TuriX/index.js",
+      "require": "./dist/brands/TuriX/index.cjs"
+    },
+    "./Udio": {
+      "types": "./dist/brands/Udio/index.d.ts",
+      "import": "./dist/brands/Udio/index.js",
+      "require": "./dist/brands/Udio/index.cjs"
+    },
+    "./Unstructured": {
+      "types": "./dist/brands/Unstructured/index.d.ts",
+      "import": "./dist/brands/Unstructured/index.js",
+      "require": "./dist/brands/Unstructured/index.cjs"
+    },
+    "./Upstage": {
+      "types": "./dist/brands/Upstage/index.d.ts",
+      "import": "./dist/brands/Upstage/index.js",
+      "require": "./dist/brands/Upstage/index.cjs"
+    },
+    "./V0": {
+      "types": "./dist/brands/V0/index.d.ts",
+      "import": "./dist/brands/V0/index.js",
+      "require": "./dist/brands/V0/index.cjs"
+    },
+    "./VectorizerAI": {
+      "types": "./dist/brands/VectorizerAI/index.d.ts",
+      "import": "./dist/brands/VectorizerAI/index.js",
+      "require": "./dist/brands/VectorizerAI/index.cjs"
+    },
+    "./Venice": {
+      "types": "./dist/brands/Venice/index.d.ts",
+      "import": "./dist/brands/Venice/index.js",
+      "require": "./dist/brands/Venice/index.cjs"
+    },
+    "./Vercel": {
+      "types": "./dist/brands/Vercel/index.d.ts",
+      "import": "./dist/brands/Vercel/index.js",
+      "require": "./dist/brands/Vercel/index.cjs"
+    },
+    "./VertexAI": {
+      "types": "./dist/brands/VertexAI/index.d.ts",
+      "import": "./dist/brands/VertexAI/index.js",
+      "require": "./dist/brands/VertexAI/index.cjs"
+    },
+    "./Vidu": {
+      "types": "./dist/brands/Vidu/index.d.ts",
+      "import": "./dist/brands/Vidu/index.js",
+      "require": "./dist/brands/Vidu/index.cjs"
+    },
+    "./Viggle": {
+      "types": "./dist/brands/Viggle/index.d.ts",
+      "import": "./dist/brands/Viggle/index.js",
+      "require": "./dist/brands/Viggle/index.cjs"
+    },
+    "./Vllm": {
+      "types": "./dist/brands/Vllm/index.d.ts",
+      "import": "./dist/brands/Vllm/index.js",
+      "require": "./dist/brands/Vllm/index.cjs"
+    },
+    "./Volcengine": {
+      "types": "./dist/brands/Volcengine/index.d.ts",
+      "import": "./dist/brands/Volcengine/index.js",
+      "require": "./dist/brands/Volcengine/index.cjs"
+    },
+    "./Voyage": {
+      "types": "./dist/brands/Voyage/index.d.ts",
+      "import": "./dist/brands/Voyage/index.js",
+      "require": "./dist/brands/Voyage/index.cjs"
+    },
+    "./Wenxin": {
+      "types": "./dist/brands/Wenxin/index.d.ts",
+      "import": "./dist/brands/Wenxin/index.js",
+      "require": "./dist/brands/Wenxin/index.cjs"
+    },
+    "./Windsurf": {
+      "types": "./dist/brands/Windsurf/index.d.ts",
+      "import": "./dist/brands/Windsurf/index.js",
+      "require": "./dist/brands/Windsurf/index.cjs"
+    },
+    "./WorkersAI": {
+      "types": "./dist/brands/WorkersAI/index.d.ts",
+      "import": "./dist/brands/WorkersAI/index.js",
+      "require": "./dist/brands/WorkersAI/index.cjs"
+    },
+    "./XAI": {
+      "types": "./dist/brands/XAI/index.d.ts",
+      "import": "./dist/brands/XAI/index.js",
+      "require": "./dist/brands/XAI/index.cjs"
+    },
+    "./XiaomiMiMo": {
+      "types": "./dist/brands/XiaomiMiMo/index.d.ts",
+      "import": "./dist/brands/XiaomiMiMo/index.js",
+      "require": "./dist/brands/XiaomiMiMo/index.cjs"
+    },
+    "./Xinference": {
+      "types": "./dist/brands/Xinference/index.d.ts",
+      "import": "./dist/brands/Xinference/index.js",
+      "require": "./dist/brands/Xinference/index.cjs"
+    },
+    "./Xpay": {
+      "types": "./dist/brands/Xpay/index.d.ts",
+      "import": "./dist/brands/Xpay/index.js",
+      "require": "./dist/brands/Xpay/index.cjs"
+    },
+    "./Xuanyuan": {
+      "types": "./dist/brands/Xuanyuan/index.d.ts",
+      "import": "./dist/brands/Xuanyuan/index.js",
+      "require": "./dist/brands/Xuanyuan/index.cjs"
+    },
+    "./Yandex": {
+      "types": "./dist/brands/Yandex/index.d.ts",
+      "import": "./dist/brands/Yandex/index.js",
+      "require": "./dist/brands/Yandex/index.cjs"
+    },
+    "./Yi": {
+      "types": "./dist/brands/Yi/index.d.ts",
+      "import": "./dist/brands/Yi/index.js",
+      "require": "./dist/brands/Yi/index.cjs"
+    },
+    "./YouMind": {
+      "types": "./dist/brands/YouMind/index.d.ts",
+      "import": "./dist/brands/YouMind/index.js",
+      "require": "./dist/brands/YouMind/index.cjs"
+    },
+    "./Yuanbao": {
+      "types": "./dist/brands/Yuanbao/index.d.ts",
+      "import": "./dist/brands/Yuanbao/index.js",
+      "require": "./dist/brands/Yuanbao/index.cjs"
+    },
+    "./ZAI": {
+      "types": "./dist/brands/ZAI/index.d.ts",
+      "import": "./dist/brands/ZAI/index.js",
+      "require": "./dist/brands/ZAI/index.cjs"
+    },
+    "./Zapier": {
+      "types": "./dist/brands/Zapier/index.d.ts",
+      "import": "./dist/brands/Zapier/index.js",
+      "require": "./dist/brands/Zapier/index.cjs"
+    },
+    "./Zeabur": {
+      "types": "./dist/brands/Zeabur/index.d.ts",
+      "import": "./dist/brands/Zeabur/index.js",
+      "require": "./dist/brands/Zeabur/index.cjs"
+    },
+    "./ZenMux": {
+      "types": "./dist/brands/ZenMux/index.d.ts",
+      "import": "./dist/brands/ZenMux/index.js",
+      "require": "./dist/brands/ZenMux/index.cjs"
+    },
+    "./Zencoder": {
+      "types": "./dist/brands/Zencoder/index.d.ts",
+      "import": "./dist/brands/Zencoder/index.js",
+      "require": "./dist/brands/Zencoder/index.cjs"
+    },
+    "./ZeroOne": {
+      "types": "./dist/brands/ZeroOne/index.d.ts",
+      "import": "./dist/brands/ZeroOne/index.js",
+      "require": "./dist/brands/ZeroOne/index.cjs"
+    },
+    "./Zhipu": {
+      "types": "./dist/brands/Zhipu/index.d.ts",
+      "import": "./dist/brands/Zhipu/index.js",
+      "require": "./dist/brands/Zhipu/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "codegen": "tsx scripts/codegen.ts",
+    "sync": "tsx scripts/sync.ts",
+    "build:js": "tsup",
+    "build:types": "tsc -p tsconfig.build.json",
+    "postbuild": "tsx scripts/postbuild.ts",
+    "build": "npm run codegen && npm run build:js && npm run build:types && npm run postbuild",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist src/brands src/registry.ts"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.2.6",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
