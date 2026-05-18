@@ -6,9 +6,9 @@ export interface SegmentedCombineProps extends HTMLAttributes<HTMLDivElement> {
   size?: number;
 }
 
-// Replaces upstream `features/ProviderCombine/Combine.tsx` which used
-// @lobehub/ui Flexbox + antd Divider. Same visual: two icons separated by a
-// thin vertical line whose height tracks `size`.
+// Two icons separated by a thin vertical divider whose height tracks `size`.
+// Used by registry tables to render compound provider marks (e.g., "AWS │
+// Bedrock").
 const SegmentedCombine = memo(
   forwardRef<HTMLDivElement, SegmentedCombineProps>(function SegmentedCombine(
     { left, right, size = 24, style, ...rest },

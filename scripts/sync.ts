@@ -1,18 +1,18 @@
 /**
- * Sync upstream lobe-icons to a target release.
+ * Sync upstream SVG source to a target release.
  *
  *   npm run sync           → fetch latest tag
  *   npm run sync v5.8.0    → pin to a specific tag
  *
  * What it does:
  *   1. Resolves the target ref (latest GitHub release tag, or arg)
- *   2. Fetches just the src/ tree of that ref into .upstream/ (shallow, sparse)
+ *   2. Fetches the src/ tree of that ref into .upstream/ (shallow clone)
  *   3. Records the synced ref in .upstream-ref
  *   4. Re-runs codegen so src/brands reflects the new content
  *
- * Important: SVG content is the only thing we carry over. Component shells,
- * package metadata, and the upstream build config are intentionally ignored —
- * those are where antd-style and @lobehub/ui leaked in.
+ * Important: SVG content is the only thing we carry over. The upstream
+ * component shells, package metadata, and build config are intentionally
+ * ignored — that is where the heavy UI / styling dependencies live.
  */
 import { execSync } from 'node:child_process';
 import { existsSync, readFileSync, rmSync, writeFileSync } from 'node:fs';

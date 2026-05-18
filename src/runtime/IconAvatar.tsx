@@ -9,8 +9,8 @@ const normalizeHex = (hex: string): string | null => {
   return m;
 };
 
-// Mirrors lobe-icons getAvatarShadow: add a faint inset ring on pure black/white
-// so the avatar boundary is visible against same-color page backgrounds.
+// Add a faint inset ring on pure black/white avatars so their boundary stays
+// visible against same-color page backgrounds.
 const getAvatarShadow = (background?: string): string | undefined => {
   if (!background) return undefined;
   const hex = normalizeHex(background);

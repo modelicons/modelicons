@@ -1,7 +1,7 @@
 {
   "name": "modelicons",
-  "version": "0.1.0",
-  "description": "Lightweight AI model brand SVG icons for React. Zero runtime dependencies — no antd, no antd-style, no @lobehub/ui.",
+  "version": "0.1.1",
+  "description": "300+ AI model brand SVG icons for React. Zero runtime dependencies, ~5 KB per icon tree-shaken.",
   "keywords": [
     "ai",
     "llm",

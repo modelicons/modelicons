@@ -1,40 +1,22 @@
 # modelicons
 
-Lightweight AI / LLM brand SVG icons for React.
+Lightweight AI model brand SVG icons for React.
 
-A drop-in alternative to [`@lobehub/icons`](https://github.com/lobehub/lobe-icons) with the same 300+ brand SVGs and the same `Icon` / `Icon.Avatar` / `Icon.Text` / `Icon.Combine` API — but **zero runtime dependencies**.
+300+ logos for AI, LLM, image-gen, video-gen, audio-gen, code agents and ML infra providers. Zero runtime dependencies. Tree-shakeable to ~5 KB per icon.
 
-## Why this exists
+## Highlights
 
-`@lobehub/icons` requires you to install (as peer or transitive deps):
-
-- `antd` (v6 — ≈700 KB minified)
-- `@lobehub/ui` (≈200 KB)
-- `antd-style` + `@ant-design/cssinjs` + `@emotion/*`
-- `polished`, `es-toolkit`, `lucide-react`
-
-…all to render a 2 KB SVG. Multiple users have flagged this on the upstream tracker — [lobehub/lobe-icons#233](https://github.com/lobehub/lobe-icons/issues/233), [#132](https://github.com/lobehub/lobe-icons/issues/132), [#232](https://github.com/lobehub/lobe-icons/issues/232).
-
-This package strips all of that out and keeps **only the SVG art**, on top of a 100-line hand-written CSS runtime.
-
-## Cost comparison
-
-| Scenario                                | `@lobehub/icons` | `modelicons` |
-| --------------------------------------- | ---------------- | ----------------- |
-| Single brand (`OpenAI` mono + avatar)   | ~1 MB minified¹  | **5.7 KB**        |
-| Single brand with gradients (`Gemini`)  | ~1 MB minified¹  | **8.6 KB**        |
-| Full registry (`ProviderIcon`)          | ~2 MB minified   | ~1 MB             |
-| Runtime dependencies                    | 4 + 2 peer       | **0**             |
-
-¹ dominated by the forced antd + @lobehub/ui parent payload that you can't tree-shake out.
+- **Zero runtime deps.** Only `react` is required as a peer dependency. No CSS-in-JS engine, no UI library, no utility libraries.
+- **Tree-shake friendly.** Per-brand subpath exports. A single icon import resolves to ~5 KB minified; gradient brands ~9 KB.
+- **Compound API.** Each brand exposes `Brand`, `Brand.Avatar`, `Brand.Text`, `Brand.Combine`, `Brand.Color`, `Brand.colorPrimary`, `Brand.title`.
+- **Registry helpers.** `ProviderIcon`, `ModelIcon`, `AgentIcon`, `ProviderCombine` for keyword-based brand lookup.
+- **300+ brands.** OpenAI, Anthropic, Gemini, DeepSeek, Mistral, Cohere, Midjourney, Stable Diffusion, Runway, ElevenLabs, Copilot, Cursor, Hugging Face, Replicate, AWS Bedrock, Vertex AI, and many more.
 
 ## Install
 
 ```bash
 npm install modelicons
 ```
-
-Only `react >= 17` is required — no antd, no antd-style, no @lobehub/ui, no anything else.
 
 ## Usage
 
@@ -77,48 +59,48 @@ import { ProviderIcon, ModelIcon } from 'modelicons';
 
 The registry imports every brand, so prefer direct imports when you know the brand at compile time.
 
-## Migrating from `@lobehub/icons`
+## Bundle cost
 
-The public API surface is intentionally the same. For most apps, a project-wide find/replace is enough:
+| Scenario                                | Tree-shaken size  |
+| --------------------------------------- | ----------------- |
+| Single brand (`OpenAI` mono + avatar)   | **5.7 KB**        |
+| Single brand with gradients (`Gemini`)  | **8.6 KB**        |
+| Full registry (`ProviderIcon`)          | ~1 MB             |
+| Runtime dependencies                    | **0**             |
 
-```diff
-- import { OpenAI, Anthropic, ProviderIcon } from '@lobehub/icons';
-+ import { OpenAI, Anthropic, ProviderIcon } from 'modelicons';
+Measured with esbuild, minified, external React.
+
+## How it's built
+
+```
+scripts/codegen.ts    walks the upstream SVG source and emits clean per-brand components
+scripts/postbuild.ts  adds explicit .js extensions for Node ESM + per-brand subpath exports
+scripts/sync.ts       pins / refreshes the upstream SVG source
+
+src/
+  brands/             codegen output: 301 brands × { Mono, Text, Color?, Avatar, Combine? }
+  runtime/            hand-written runtime: IconAvatar, IconCombine, DefaultIcon, ...
+  hooks/useFillId     React.useId() based unique-ID hook for SVG <defs>
+  features/           ProviderIcon, ModelIcon, ProviderCombine, AgentIcon
+  _internal/          codegen output: provider / model / agent keyword tables
 ```
 
-Differences you may hit:
+The SVG `<path>` data is preserved byte-for-byte from the upstream source. The component shells, layout containers, theme-aware shadow logic, and unique-ID generation are all reimplemented in plain React + CSS.
 
-- **No `AntdRegistry` / `ConfigProvider` required.** Just render the components — they have no theme context.
-- **No `useThemeMode`-driven shadow.** The avatar's faint inset border (used for pure black/white brands) is computed inline. Dark/light theming is your app's concern, not ours.
-- **`IconAvatarProps.size` is required** (matches upstream; the default is applied at the component boundary, but the prop is non-optional in the type so brand wrappers can do `rest.size * 0.05` math without `!`).
-
-## How the SVG content stays in sync
+## Syncing upstream SVG content
 
 ```bash
-npm run sync                  # pin to latest lobe-icons tag
+npm run sync                  # pin to latest upstream tag
 npm run sync -- v5.8.0        # pin to a specific tag
 npm run build                 # regenerate dist/
 ```
 
 The current upstream ref is recorded in `.upstream-ref`.
 
-## How it's built
+## License & attribution
 
-```
-.upstream/         # lobe-icons checkout (gitignored)
-scripts/codegen.ts # walks .upstream/src, rewrites antd-flavored imports → src/brands
-scripts/postbuild.ts # adds .js extensions for Node ESM + emits per-brand subpath exports
-src/
-  brands/          # codegen output: 301 brands × { Mono, Text, Color?, Avatar, Combine? }
-  runtime/         # hand-written, antd-free: IconAvatar, IconCombine, SegmentedCombine,
-                   #   DefaultIcon, DefaultAvatar, Flex
-  hooks/useFillId  # React.useId() + inline kebabCase (replaces es-toolkit)
-  features/        # ProviderIcon, ModelIcon, ProviderCombine, AgentIcon wrappers
-  _internal/       # codegen output: providerConfig / modelConfig / agentConfig / providerEnum
-```
+MIT.
 
-The SVG `<path>` data is copied byte-for-byte from upstream. The wrappers around the SVG (Avatar containers, Combine layouts, etc.) are reimplemented in plain React + CSS.
+Brand marks belong to their respective owners and are included for identification purposes only.
 
-## License
-
-MIT — same as upstream. Brand marks belong to their respective owners.
+SVG source content is derived from [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) (MIT). The runtime, build tooling, and component shells are original to this project.

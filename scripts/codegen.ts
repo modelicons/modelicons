@@ -1,13 +1,14 @@
 /**
- * Codegen: transform .upstream/src (lobehub/lobe-icons) into our antd-free src.
+ * Codegen: transform .upstream/src into our self-contained src tree.
  *
  *  Inputs  ← .upstream/src/{<Brand>,features,...}
  *  Outputs → src/brands/<Brand>/...
  *            src/brands/index.ts                 (barrel)
  *            src/_internal/{providerConfig,modelConfig,providerEnum}.ts
  *
- * SVG content is preserved byte-for-byte from upstream. We only rewrite imports
- * to drop the @lobehub/ui, antd-style, and `antd` dependencies.
+ * SVG content is preserved byte-for-byte from upstream. Imports are rewritten
+ * so that brand and feature files resolve against our runtime/, hooks/, and
+ * types modules instead of third-party UI libraries.
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -81,7 +82,7 @@ writeFileSync(join(BRANDS_OUT, 'index.ts'), readFileSync(join(UPSTREAM, 'icons.t
 // ----- internal registry (providerConfig + modelConfig + providerEnum) ------
 // These are pure data tables that import every brand. We rewrite:
 //   @/<Brand>                    → ../brands/<Brand>
-//   '@lobehub/ui' DivProps        → React HTMLAttributes<HTMLDivElement>
+//   external UI lib's DivProps   → React HTMLAttributes<HTMLDivElement>
 //   './ProviderCombine/Combine'   → ../runtime/SegmentedCombine
 //   './IconAvatar'                → ../runtime/IconAvatar
 //   './IconCombine'               → ../runtime/IconCombine
