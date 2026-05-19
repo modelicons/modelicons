@@ -92,6 +92,11 @@
       "import": "./dist/brands/AiStudio/index.js",
       "require": "./dist/brands/AiStudio/index.cjs"
     },
+    "./Aider": {
+      "types": "./dist/brands/Aider/index.d.ts",
+      "import": "./dist/brands/Aider/index.js",
+      "require": "./dist/brands/Aider/index.cjs"
+    },
     "./AionLabs": {
       "types": "./dist/brands/AionLabs/index.d.ts",
       "import": "./dist/brands/AionLabs/index.js",
@@ -252,6 +257,11 @@
       "import": "./dist/brands/Bing/index.js",
       "require": "./dist/brands/Bing/index.cjs"
     },
+    "./Braintrust": {
+      "types": "./dist/brands/Braintrust/index.d.ts",
+      "import": "./dist/brands/Braintrust/index.js",
+      "require": "./dist/brands/Braintrust/index.cjs"
+    },
     "./BriaAI": {
       "types": "./dist/brands/BriaAI/index.d.ts",
       "import": "./dist/brands/BriaAI/index.js",
@@ -272,6 +282,11 @@
       "import": "./dist/brands/CapCut/index.js",
       "require": "./dist/brands/CapCut/index.cjs"
     },
+    "./Cartesia": {
+      "types": "./dist/brands/Cartesia/index.d.ts",
+      "import": "./dist/brands/Cartesia/index.js",
+      "require": "./dist/brands/Cartesia/index.cjs"
+    },
     "./CentML": {
       "types": "./dist/brands/CentML/index.d.ts",
       "import": "./dist/brands/CentML/index.js",
@@ -291,6 +306,11 @@
       "types": "./dist/brands/CherryStudio/index.d.ts",
       "import": "./dist/brands/CherryStudio/index.js",
       "require": "./dist/brands/CherryStudio/index.cjs"
+    },
+    "./ChromaDB": {
+      "types": "./dist/brands/ChromaDB/index.d.ts",
+      "import": "./dist/brands/ChromaDB/index.js",
+      "require": "./dist/brands/ChromaDB/index.cjs"
     },
     "./Civitai": {
       "types": "./dist/brands/Civitai/index.d.ts",
@@ -341,6 +361,11 @@
       "types": "./dist/brands/Codex/index.d.ts",
       "import": "./dist/brands/Codex/index.js",
       "require": "./dist/brands/Codex/index.cjs"
+    },
+    "./Cody": {
+      "types": "./dist/brands/Cody/index.d.ts",
+      "import": "./dist/brands/Cody/index.js",
+      "require": "./dist/brands/Cody/index.cjs"
     },
     "./CogVideo": {
       "types": "./dist/brands/CogVideo/index.d.ts",
@@ -396,6 +421,11 @@
       "types": "./dist/brands/Coqui/index.d.ts",
       "import": "./dist/brands/Coqui/index.js",
       "require": "./dist/brands/Coqui/index.cjs"
+    },
+    "./CoreWeave": {
+      "types": "./dist/brands/CoreWeave/index.d.ts",
+      "import": "./dist/brands/CoreWeave/index.js",
+      "require": "./dist/brands/CoreWeave/index.cjs"
     },
     "./Coze": {
       "types": "./dist/brands/Coze/index.d.ts",
@@ -461,6 +491,11 @@
       "types": "./dist/brands/DeepSeek/index.d.ts",
       "import": "./dist/brands/DeepSeek/index.js",
       "require": "./dist/brands/DeepSeek/index.cjs"
+    },
+    "./Deepgram": {
+      "types": "./dist/brands/Deepgram/index.d.ts",
+      "import": "./dist/brands/Deepgram/index.js",
+      "require": "./dist/brands/Deepgram/index.cjs"
     },
     "./Devin": {
       "types": "./dist/brands/Devin/index.d.ts",
@@ -822,6 +857,11 @@
       "import": "./dist/brands/LangChain/index.js",
       "require": "./dist/brands/LangChain/index.cjs"
     },
+    "./LangFlow": {
+      "types": "./dist/brands/LangFlow/index.d.ts",
+      "import": "./dist/brands/LangFlow/index.js",
+      "require": "./dist/brands/LangFlow/index.cjs"
+    },
     "./LangGraph": {
       "types": "./dist/brands/LangGraph/index.d.ts",
       "import": "./dist/brands/LangGraph/index.js",
@@ -962,6 +1002,11 @@
       "import": "./dist/brands/Midjourney/index.js",
       "require": "./dist/brands/Midjourney/index.cjs"
     },
+    "./Milvus": {
+      "types": "./dist/brands/Milvus/index.d.ts",
+      "import": "./dist/brands/Milvus/index.js",
+      "require": "./dist/brands/Milvus/index.cjs"
+    },
     "./Minimax": {
       "types": "./dist/brands/Minimax/index.d.ts",
       "import": "./dist/brands/Minimax/index.js",
@@ -971,6 +1016,11 @@
       "types": "./dist/brands/Mistral/index.d.ts",
       "import": "./dist/brands/Mistral/index.js",
       "require": "./dist/brands/Mistral/index.cjs"
+    },
+    "./Modal": {
+      "types": "./dist/brands/Modal/index.d.ts",
+      "import": "./dist/brands/Modal/index.js",
+      "require": "./dist/brands/Modal/index.cjs"
     },
     "./ModelScope": {
       "types": "./dist/brands/ModelScope/index.d.ts",
@@ -1471,6 +1521,11 @@
       "types": "./dist/brands/Voyage/index.d.ts",
       "import": "./dist/brands/Voyage/index.js",
       "require": "./dist/brands/Voyage/index.cjs"
+    },
+    "./WandB": {
+      "types": "./dist/brands/WandB/index.d.ts",
+      "import": "./dist/brands/WandB/index.js",
+      "require": "./dist/brands/WandB/index.cjs"
     },
     "./Weaviate": {
       "types": "./dist/brands/Weaviate/index.d.ts",

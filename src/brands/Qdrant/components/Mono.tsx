@@ -17,10 +17,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <defs>
-    
-  </defs>
-  <g id="Vectors">
+      <g id="Vectors">
     <g>
       <g>
         <polygon points="173.21 0 0 100 0 300 173.21 400 238.16 362.5 238.16 287.5 173.21 325 64.96 262.5 64.96 137.5 173.21 75 281.46 137.5 281.46 387.5 346.42 350 346.42 100 173.21 0"/>

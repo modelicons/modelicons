@@ -1,0 +1,26 @@
+import { memo } from 'react';
+
+import type { IconType } from '../../../types';
+
+import { TITLE } from '../style';
+
+const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+  return (
+    <svg
+      fill="currentColor"
+      fillRule="evenodd"
+      height={size}
+      style={{ flex: 'none', lineHeight: 1, ...style }}
+      viewBox="0 0 100 100"
+      width={size}
+      xmlns="http://www.w3.org/2000/svg"
+      {...rest}
+    >
+      <title>{TITLE}</title>
+      <path d="m42.8 37.6c2.7 0 5.8-1.9 5.8-6v-6.4c-0.2-2.7-2.1-5.2-4.8-6.1h-7.8c-2.7 0-5.7 2.4-5.7 5.7v4.4h-3.1c-2.7 0-5.8 2.2-5.8 6.1v7.2c0.4 2.7 2.3 5.2 6 5.6h3v2.3h-3.2c-2.7 0-5.8 1.9-5.8 5.8v7.2c0.4 2.7 2.3 5.2 5.4 5.4h3.5v4.8c0 2.7 2.1 6 6.2 6h6.4c2.8 0 5.7-1.7 5.8-5.4v-7.3c0-2.7-2-5.9-5.3-6.1h-3.9v-2.3h3.1c2.7 0 6-1.9 6.1-5.8v-6.8c-0.1-2.7-2-5.8-6.1-5.9h-3.1v-2.4h3.3z"/>
+  <path d="m72.8 50.4h-3.3v-2.3h3.1c2.7 0 5.8-1.6 6-5.6v-7.2c-0.2-2.7-2.1-5.3-4.8-5.9h-4.3v-4.4c0-2.7-1.9-5.9-5.8-5.9h-7.2c-2.7 0.2-5.2 2.3-5.2 5.5v7c0.2 2.7 2.1 5.6 5.3 6h3.9v2.4h-3.3c-2.7 0-5.9 2.1-5.9 5.7v7.2c0 2.7 1.9 5.2 5.3 5.6h3.9v2.1h-3.5c-2.7 0-5.7 2.3-5.8 6.1v7.2c0.2 2.7 2.1 5.5 5.8 5.7h6.4c2.7 0.2 6-1.9 6.1-5.6v-5.2h3.9c2.7 0 5-2.3 5.2-5.4v-7.5c-0.3-3-2.3-5.3-5.8-5.5z"/>
+    </svg>
+  );
+});
+
+export default Icon;
