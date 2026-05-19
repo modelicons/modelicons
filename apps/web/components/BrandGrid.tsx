@@ -30,8 +30,8 @@ export function BrandGrid() {
           <div className="hero-text">
             <h1>{ALL_BRANDS.length} AI brand icons for the web</h1>
             <p>
-              Zero runtime dependencies. ~5 KB per icon tree-shaken. Available for React, Vue, and
-              as raw SVG (Svelte / SolidJS / Astro / vanilla HTML).
+              Zero runtime dependencies. ~5 KB per icon tree-shaken. Available for React, Vue 3,
+              Svelte 4/5, and as raw SVG strings for everything else.
             </p>
           </div>
         </header>

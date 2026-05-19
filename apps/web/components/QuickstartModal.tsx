@@ -36,7 +36,7 @@ const ProviderIcon = lazy(() =>
 const FEATURES = [
   { title: 'Zero deps', body: 'No antd, no CSS-in-JS engine, no utility libs.' },
   { title: 'Tree-shake friendly', body: '~5 KB minified per icon. 30 brands ≈ 60 KB gzipped.' },
-  { title: 'Multi-framework', body: 'React (modelicons), Vue 3 (@modelicons/vue), raw SVG (@modelicons/svg).' },
+  { title: 'Multi-framework', body: 'React, Vue 3, Svelte 4/5, plus raw SVG strings for everything else.' },
   { title: '319 brands', body: 'LLM, image gen, video gen, audio, code agents, cloud, vector DBs.' },
 ];
 
@@ -50,12 +50,20 @@ import { Color as Gemini } from '@modelicons/vue/Gemini';
   <Gemini :size="48" />
 </template>`;
 
-const SVG_SNIPPET = `// Svelte / SolidJS / Astro / vanilla HTML
+const SVELTE_SNIPPET = `<script>
+  import { Mono as OpenAI } from '@modelicons/svelte/OpenAI';
+  import { Color as Gemini } from '@modelicons/svelte/Gemini';
+</script>
+
+<OpenAI size={32} />
+<Gemini size={48} />`;
+
+const SVG_SNIPPET = `// SolidJS / Astro / vanilla HTML / web components
 import { mono } from '@modelicons/svg/OpenAI';
 
 document.getElementById('logo').innerHTML = mono;
-// or in Svelte:  {@html mono}
-// or in SolidJS: <div innerHTML={mono} />`;
+// SolidJS: <div innerHTML={mono} />
+// Astro:   <Fragment set:html={mono} />`;
 
 export function QuickstartModal({ onClose }: { onClose: () => void }) {
   useEffect(() => {
@@ -130,9 +138,25 @@ export function QuickstartModal({ onClose }: { onClose: () => void }) {
           </div>
         </section>
 
+        {/* Svelte */}
+        <section className="code-section">
+          <h3>Svelte 4 / 5</h3>
+          <div className="code-block">
+            <CopyButton text="npm install @modelicons/svelte" />
+            <code>npm install @modelicons/svelte</code>
+          </div>
+          <div style={{ height: 8 }} />
+          <div className="code-block">
+            <CopyButton text={SVELTE_SNIPPET} />
+            <pre style={{ margin: 0 }}>
+              <code>{SVELTE_SNIPPET}</code>
+            </pre>
+          </div>
+        </section>
+
         {/* Raw SVG */}
         <section className="code-section">
-          <h3>Svelte / SolidJS / Astro / anywhere else</h3>
+          <h3>SolidJS / Astro / anywhere else</h3>
           <div className="code-block">
             <CopyButton text="npm install @modelicons/svg" />
             <code>npm install @modelicons/svg</code>
