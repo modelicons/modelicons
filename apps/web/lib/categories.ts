@@ -2,15 +2,15 @@
 // Brands not in any list fall under "其它".
 
 export const CATEGORIES = [
-  { id: 'all', label: '全部' },
+  { id: 'all', label: 'All' },
   { id: 'llm', label: 'LLM' },
-  { id: 'image', label: '图像生成' },
-  { id: 'video', label: '视频生成' },
-  { id: 'audio', label: '音频/语音' },
-  { id: 'code', label: '代码 Agent' },
-  { id: 'cloud', label: '推理/云' },
-  { id: 'tools', label: '工具/平台' },
-  { id: 'data', label: 'RAG/数据库' },
+  { id: 'image', label: 'Image gen' },
+  { id: 'video', label: 'Video gen' },
+  { id: 'audio', label: 'Audio' },
+  { id: 'code', label: 'Code agents' },
+  { id: 'cloud', label: 'Cloud / Inference' },
+  { id: 'tools', label: 'Tools' },
+  { id: 'data', label: 'Vector DB' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];
