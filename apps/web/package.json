@@ -1,0 +1,24 @@
+{
+  "name": "modelicons-web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 4174",
+    "build": "next build",
+    "start": "next start -p 4174",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "modelicons": "file:../..",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
