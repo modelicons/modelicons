@@ -377,6 +377,11 @@
       "import": "./dist/brands/CommandA/index.js",
       "require": "./dist/brands/CommandA/index.cjs"
     },
+    "./ContinueDev": {
+      "types": "./dist/brands/ContinueDev/index.d.ts",
+      "import": "./dist/brands/ContinueDev/index.js",
+      "require": "./dist/brands/ContinueDev/index.cjs"
+    },
     "./Copilot": {
       "types": "./dist/brands/Copilot/index.d.ts",
       "import": "./dist/brands/Copilot/index.js",
@@ -456,6 +461,11 @@
       "types": "./dist/brands/DeepSeek/index.d.ts",
       "import": "./dist/brands/DeepSeek/index.js",
       "require": "./dist/brands/DeepSeek/index.cjs"
+    },
+    "./Devin": {
+      "types": "./dist/brands/Devin/index.d.ts",
+      "import": "./dist/brands/Devin/index.js",
+      "require": "./dist/brands/Devin/index.cjs"
     },
     "./Dify": {
       "types": "./dist/brands/Dify/index.d.ts",
@@ -651,6 +661,11 @@
       "types": "./dist/brands/Hedra/index.d.ts",
       "import": "./dist/brands/Hedra/index.js",
       "require": "./dist/brands/Hedra/index.cjs"
+    },
+    "./Helicone": {
+      "types": "./dist/brands/Helicone/index.d.ts",
+      "import": "./dist/brands/Helicone/index.js",
+      "require": "./dist/brands/Helicone/index.cjs"
     },
     "./HermesAgent": {
       "types": "./dist/brands/HermesAgent/index.d.ts",
@@ -1122,6 +1137,11 @@
       "import": "./dist/brands/Pika/index.js",
       "require": "./dist/brands/Pika/index.cjs"
     },
+    "./Pinecone": {
+      "types": "./dist/brands/Pinecone/index.d.ts",
+      "import": "./dist/brands/Pinecone/index.js",
+      "require": "./dist/brands/Pinecone/index.cjs"
+    },
     "./PixVerse": {
       "types": "./dist/brands/PixVerse/index.d.ts",
       "import": "./dist/brands/PixVerse/index.js",
@@ -1151,6 +1171,11 @@
       "types": "./dist/brands/PydanticAI/index.d.ts",
       "import": "./dist/brands/PydanticAI/index.js",
       "require": "./dist/brands/PydanticAI/index.cjs"
+    },
+    "./Qdrant": {
+      "types": "./dist/brands/Qdrant/index.d.ts",
+      "import": "./dist/brands/Qdrant/index.js",
+      "require": "./dist/brands/Qdrant/index.cjs"
     },
     "./Qingyan": {
       "types": "./dist/brands/Qingyan/index.d.ts",
@@ -1327,6 +1352,11 @@
       "import": "./dist/brands/TII/index.js",
       "require": "./dist/brands/TII/index.cjs"
     },
+    "./Tabnine": {
+      "types": "./dist/brands/Tabnine/index.d.ts",
+      "import": "./dist/brands/Tabnine/index.js",
+      "require": "./dist/brands/Tabnine/index.cjs"
+    },
     "./Targon": {
       "types": "./dist/brands/Targon/index.d.ts",
       "import": "./dist/brands/Targon/index.js",
@@ -1441,6 +1471,11 @@
       "types": "./dist/brands/Voyage/index.d.ts",
       "import": "./dist/brands/Voyage/index.js",
       "require": "./dist/brands/Voyage/index.cjs"
+    },
+    "./Weaviate": {
+      "types": "./dist/brands/Weaviate/index.d.ts",
+      "import": "./dist/brands/Weaviate/index.js",
+      "require": "./dist/brands/Weaviate/index.cjs"
     },
     "./Wenxin": {
       "types": "./dist/brands/Wenxin/index.d.ts",

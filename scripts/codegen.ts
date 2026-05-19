@@ -49,13 +49,18 @@ const rewriteIndex = (src: string) =>
   src.replace(/^['"]use client['"];?\n+/m, '');
 
 // ----- write brands ---------------------------------------------------------
-if (existsSync(BRANDS_OUT)) rmSync(BRANDS_OUT, { recursive: true });
+// Only refresh brands that exist upstream. Local-only brands (added by hand
+// in src/brands/<Name>/) are preserved across sync, so the codegen pipeline
+// stays compatible with manual contributions.
 mkdirSync(BRANDS_OUT, { recursive: true });
+const upstreamBrandSet = new Set(brands);
 
 let fileCount = 0;
 for (const brand of brands) {
   const srcDir = join(UPSTREAM, brand);
   const dstDir = join(BRANDS_OUT, brand);
+  // wipe just this brand's dir to drop deleted variants from upstream
+  if (existsSync(dstDir)) rmSync(dstDir, { recursive: true });
   mkdirSync(join(dstDir, 'components'), { recursive: true });
 
   writeFileSync(join(dstDir, 'style.ts'), readFileSync(join(srcDir, 'style.ts'), 'utf8'));
@@ -74,10 +79,34 @@ for (const brand of brands) {
     fileCount++;
   }
 }
-console.log(`[codegen] wrote ${fileCount} component files`);
+console.log(`[codegen] wrote ${fileCount} component files across ${brands.length} upstream brands`);
 
-// brand barrel: upstream icons.ts is already a flat `export { default as X } from './X'` list
-writeFileSync(join(BRANDS_OUT, 'index.ts'), readFileSync(join(UPSTREAM, 'icons.ts'), 'utf8'));
+// Detect local-only brands and preserve them. Regenerate the barrel from the
+// union of (upstream brands) + (local-only brand dirs that have index.ts).
+const localBrands = readdirSync(BRANDS_OUT)
+  .filter((n) => {
+    if (n === 'index.ts') return false;
+    if (upstreamBrandSet.has(n)) return false;
+    const p = join(BRANDS_OUT, n);
+    try {
+      return statSync(p).isDirectory() && existsSync(join(p, 'index.ts'));
+    } catch {
+      return false;
+    }
+  })
+  .sort();
+
+if (localBrands.length) {
+  console.log(`[codegen] preserved ${localBrands.length} local-only brand(s):`, localBrands.join(', '));
+}
+
+const allBrands = [...brands, ...localBrands].sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }));
+writeFileSync(
+  join(BRANDS_OUT, 'index.ts'),
+  allBrands
+    .map((b) => `export { default as ${b}, type CompoundedIcon as ${b}Props } from './${b}';`)
+    .join('\n') + '\n',
+);
 
 // ----- internal registry (providerConfig + modelConfig + providerEnum) ------
 // These are pure data tables that import every brand. We rewrite:
