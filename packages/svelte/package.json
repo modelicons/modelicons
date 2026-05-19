@@ -1,0 +1,1639 @@
+{
+  "name": "@modelicons/svelte",
+  "version": "0.1.0",
+  "description": "300+ AI model brand icons for Svelte 4/5. Zero runtime dependencies.",
+  "keywords": [
+    "ai",
+    "llm",
+    "model",
+    "icons",
+    "logo",
+    "svelte",
+    "sveltekit",
+    "svg"
+  ],
+  "homepage": "https://github.com/modelicons/modelicons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modelicons/modelicons.git",
+    "directory": "packages/svelte"
+  },
+  "license": "MIT",
+  "author": "modelicons",
+  "sideEffects": false,
+  "type": "module",
+  "svelte": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json",
+    "./Ace": {
+      "types": "./dist/Ace/index.d.ts",
+      "svelte": "./dist/Ace/index.js",
+      "default": "./dist/Ace/index.js"
+    },
+    "./Adobe": {
+      "types": "./dist/Adobe/index.d.ts",
+      "svelte": "./dist/Adobe/index.js",
+      "default": "./dist/Adobe/index.js"
+    },
+    "./AdobeFirefly": {
+      "types": "./dist/AdobeFirefly/index.d.ts",
+      "svelte": "./dist/AdobeFirefly/index.js",
+      "default": "./dist/AdobeFirefly/index.js"
+    },
+    "./AgentVoice": {
+      "types": "./dist/AgentVoice/index.d.ts",
+      "svelte": "./dist/AgentVoice/index.js",
+      "default": "./dist/AgentVoice/index.js"
+    },
+    "./Agui": {
+      "types": "./dist/Agui/index.d.ts",
+      "svelte": "./dist/Agui/index.js",
+      "default": "./dist/Agui/index.js"
+    },
+    "./Ai2": {
+      "types": "./dist/Ai2/index.d.ts",
+      "svelte": "./dist/Ai2/index.js",
+      "default": "./dist/Ai2/index.js"
+    },
+    "./Ai21": {
+      "types": "./dist/Ai21/index.d.ts",
+      "svelte": "./dist/Ai21/index.js",
+      "default": "./dist/Ai21/index.js"
+    },
+    "./Ai302": {
+      "types": "./dist/Ai302/index.d.ts",
+      "svelte": "./dist/Ai302/index.js",
+      "default": "./dist/Ai302/index.js"
+    },
+    "./Ai360": {
+      "types": "./dist/Ai360/index.d.ts",
+      "svelte": "./dist/Ai360/index.js",
+      "default": "./dist/Ai360/index.js"
+    },
+    "./AiHubMix": {
+      "types": "./dist/AiHubMix/index.d.ts",
+      "svelte": "./dist/AiHubMix/index.js",
+      "default": "./dist/AiHubMix/index.js"
+    },
+    "./AiMass": {
+      "types": "./dist/AiMass/index.d.ts",
+      "svelte": "./dist/AiMass/index.js",
+      "default": "./dist/AiMass/index.js"
+    },
+    "./AiStudio": {
+      "types": "./dist/AiStudio/index.d.ts",
+      "svelte": "./dist/AiStudio/index.js",
+      "default": "./dist/AiStudio/index.js"
+    },
+    "./Aider": {
+      "types": "./dist/Aider/index.d.ts",
+      "svelte": "./dist/Aider/index.js",
+      "default": "./dist/Aider/index.js"
+    },
+    "./AionLabs": {
+      "types": "./dist/AionLabs/index.d.ts",
+      "svelte": "./dist/AionLabs/index.js",
+      "default": "./dist/AionLabs/index.js"
+    },
+    "./AkashChat": {
+      "types": "./dist/AkashChat/index.d.ts",
+      "svelte": "./dist/AkashChat/index.js",
+      "default": "./dist/AkashChat/index.js"
+    },
+    "./AlephAlpha": {
+      "types": "./dist/AlephAlpha/index.d.ts",
+      "svelte": "./dist/AlephAlpha/index.js",
+      "default": "./dist/AlephAlpha/index.js"
+    },
+    "./Alibaba": {
+      "types": "./dist/Alibaba/index.d.ts",
+      "svelte": "./dist/Alibaba/index.js",
+      "default": "./dist/Alibaba/index.js"
+    },
+    "./AlibabaCloud": {
+      "types": "./dist/AlibabaCloud/index.d.ts",
+      "svelte": "./dist/AlibabaCloud/index.js",
+      "default": "./dist/AlibabaCloud/index.js"
+    },
+    "./Amp": {
+      "types": "./dist/Amp/index.d.ts",
+      "svelte": "./dist/Amp/index.js",
+      "default": "./dist/Amp/index.js"
+    },
+    "./AntGroup": {
+      "types": "./dist/AntGroup/index.d.ts",
+      "svelte": "./dist/AntGroup/index.js",
+      "default": "./dist/AntGroup/index.js"
+    },
+    "./Anthropic": {
+      "types": "./dist/Anthropic/index.d.ts",
+      "svelte": "./dist/Anthropic/index.js",
+      "default": "./dist/Anthropic/index.js"
+    },
+    "./Antigravity": {
+      "types": "./dist/Antigravity/index.d.ts",
+      "svelte": "./dist/Antigravity/index.js",
+      "default": "./dist/Antigravity/index.js"
+    },
+    "./Anyscale": {
+      "types": "./dist/Anyscale/index.d.ts",
+      "svelte": "./dist/Anyscale/index.js",
+      "default": "./dist/Anyscale/index.js"
+    },
+    "./Apertis": {
+      "types": "./dist/Apertis/index.d.ts",
+      "svelte": "./dist/Apertis/index.js",
+      "default": "./dist/Apertis/index.js"
+    },
+    "./Apple": {
+      "types": "./dist/Apple/index.d.ts",
+      "svelte": "./dist/Apple/index.js",
+      "default": "./dist/Apple/index.js"
+    },
+    "./Arcee": {
+      "types": "./dist/Arcee/index.d.ts",
+      "svelte": "./dist/Arcee/index.js",
+      "default": "./dist/Arcee/index.js"
+    },
+    "./AskVerdict": {
+      "types": "./dist/AskVerdict/index.d.ts",
+      "svelte": "./dist/AskVerdict/index.js",
+      "default": "./dist/AskVerdict/index.js"
+    },
+    "./AssemblyAI": {
+      "types": "./dist/AssemblyAI/index.d.ts",
+      "svelte": "./dist/AssemblyAI/index.js",
+      "default": "./dist/AssemblyAI/index.js"
+    },
+    "./AtlasCloud": {
+      "types": "./dist/AtlasCloud/index.d.ts",
+      "svelte": "./dist/AtlasCloud/index.js",
+      "default": "./dist/AtlasCloud/index.js"
+    },
+    "./Automatic": {
+      "types": "./dist/Automatic/index.d.ts",
+      "svelte": "./dist/Automatic/index.js",
+      "default": "./dist/Automatic/index.js"
+    },
+    "./Aws": {
+      "types": "./dist/Aws/index.d.ts",
+      "svelte": "./dist/Aws/index.js",
+      "default": "./dist/Aws/index.js"
+    },
+    "./Aya": {
+      "types": "./dist/Aya/index.d.ts",
+      "svelte": "./dist/Aya/index.js",
+      "default": "./dist/Aya/index.js"
+    },
+    "./Azure": {
+      "types": "./dist/Azure/index.d.ts",
+      "svelte": "./dist/Azure/index.js",
+      "default": "./dist/Azure/index.js"
+    },
+    "./AzureAI": {
+      "types": "./dist/AzureAI/index.d.ts",
+      "svelte": "./dist/AzureAI/index.js",
+      "default": "./dist/AzureAI/index.js"
+    },
+    "./BAAI": {
+      "types": "./dist/BAAI/index.d.ts",
+      "svelte": "./dist/BAAI/index.js",
+      "default": "./dist/BAAI/index.js"
+    },
+    "./Baichuan": {
+      "types": "./dist/Baichuan/index.d.ts",
+      "svelte": "./dist/Baichuan/index.js",
+      "default": "./dist/Baichuan/index.js"
+    },
+    "./Baidu": {
+      "types": "./dist/Baidu/index.d.ts",
+      "svelte": "./dist/Baidu/index.js",
+      "default": "./dist/Baidu/index.js"
+    },
+    "./BaiduCloud": {
+      "types": "./dist/BaiduCloud/index.d.ts",
+      "svelte": "./dist/BaiduCloud/index.js",
+      "default": "./dist/BaiduCloud/index.js"
+    },
+    "./Bailian": {
+      "types": "./dist/Bailian/index.d.ts",
+      "svelte": "./dist/Bailian/index.js",
+      "default": "./dist/Bailian/index.js"
+    },
+    "./Baseten": {
+      "types": "./dist/Baseten/index.d.ts",
+      "svelte": "./dist/Baseten/index.js",
+      "default": "./dist/Baseten/index.js"
+    },
+    "./Bedrock": {
+      "types": "./dist/Bedrock/index.d.ts",
+      "svelte": "./dist/Bedrock/index.js",
+      "default": "./dist/Bedrock/index.js"
+    },
+    "./Bfl": {
+      "types": "./dist/Bfl/index.d.ts",
+      "svelte": "./dist/Bfl/index.js",
+      "default": "./dist/Bfl/index.js"
+    },
+    "./Bilibili": {
+      "types": "./dist/Bilibili/index.d.ts",
+      "svelte": "./dist/Bilibili/index.js",
+      "default": "./dist/Bilibili/index.js"
+    },
+    "./BilibiliIndex": {
+      "types": "./dist/BilibiliIndex/index.d.ts",
+      "svelte": "./dist/BilibiliIndex/index.js",
+      "default": "./dist/BilibiliIndex/index.js"
+    },
+    "./Bing": {
+      "types": "./dist/Bing/index.d.ts",
+      "svelte": "./dist/Bing/index.js",
+      "default": "./dist/Bing/index.js"
+    },
+    "./Braintrust": {
+      "types": "./dist/Braintrust/index.d.ts",
+      "svelte": "./dist/Braintrust/index.js",
+      "default": "./dist/Braintrust/index.js"
+    },
+    "./BriaAI": {
+      "types": "./dist/BriaAI/index.d.ts",
+      "svelte": "./dist/BriaAI/index.js",
+      "default": "./dist/BriaAI/index.js"
+    },
+    "./BurnCloud": {
+      "types": "./dist/BurnCloud/index.d.ts",
+      "svelte": "./dist/BurnCloud/index.js",
+      "default": "./dist/BurnCloud/index.js"
+    },
+    "./ByteDance": {
+      "types": "./dist/ByteDance/index.d.ts",
+      "svelte": "./dist/ByteDance/index.js",
+      "default": "./dist/ByteDance/index.js"
+    },
+    "./CapCut": {
+      "types": "./dist/CapCut/index.d.ts",
+      "svelte": "./dist/CapCut/index.js",
+      "default": "./dist/CapCut/index.js"
+    },
+    "./Cartesia": {
+      "types": "./dist/Cartesia/index.d.ts",
+      "svelte": "./dist/Cartesia/index.js",
+      "default": "./dist/Cartesia/index.js"
+    },
+    "./CentML": {
+      "types": "./dist/CentML/index.d.ts",
+      "svelte": "./dist/CentML/index.js",
+      "default": "./dist/CentML/index.js"
+    },
+    "./Cerebras": {
+      "types": "./dist/Cerebras/index.d.ts",
+      "svelte": "./dist/Cerebras/index.js",
+      "default": "./dist/Cerebras/index.js"
+    },
+    "./ChatGLM": {
+      "types": "./dist/ChatGLM/index.d.ts",
+      "svelte": "./dist/ChatGLM/index.js",
+      "default": "./dist/ChatGLM/index.js"
+    },
+    "./CherryStudio": {
+      "types": "./dist/CherryStudio/index.d.ts",
+      "svelte": "./dist/CherryStudio/index.js",
+      "default": "./dist/CherryStudio/index.js"
+    },
+    "./ChromaDB": {
+      "types": "./dist/ChromaDB/index.d.ts",
+      "svelte": "./dist/ChromaDB/index.js",
+      "default": "./dist/ChromaDB/index.js"
+    },
+    "./Civitai": {
+      "types": "./dist/Civitai/index.d.ts",
+      "svelte": "./dist/Civitai/index.js",
+      "default": "./dist/Civitai/index.js"
+    },
+    "./Claude": {
+      "types": "./dist/Claude/index.d.ts",
+      "svelte": "./dist/Claude/index.js",
+      "default": "./dist/Claude/index.js"
+    },
+    "./ClaudeCode": {
+      "types": "./dist/ClaudeCode/index.d.ts",
+      "svelte": "./dist/ClaudeCode/index.js",
+      "default": "./dist/ClaudeCode/index.js"
+    },
+    "./Cline": {
+      "types": "./dist/Cline/index.d.ts",
+      "svelte": "./dist/Cline/index.js",
+      "default": "./dist/Cline/index.js"
+    },
+    "./Clipdrop": {
+      "types": "./dist/Clipdrop/index.d.ts",
+      "svelte": "./dist/Clipdrop/index.js",
+      "default": "./dist/Clipdrop/index.js"
+    },
+    "./Cloudflare": {
+      "types": "./dist/Cloudflare/index.d.ts",
+      "svelte": "./dist/Cloudflare/index.js",
+      "default": "./dist/Cloudflare/index.js"
+    },
+    "./CodeBuddy": {
+      "types": "./dist/CodeBuddy/index.d.ts",
+      "svelte": "./dist/CodeBuddy/index.js",
+      "default": "./dist/CodeBuddy/index.js"
+    },
+    "./CodeFlicker": {
+      "types": "./dist/CodeFlicker/index.d.ts",
+      "svelte": "./dist/CodeFlicker/index.js",
+      "default": "./dist/CodeFlicker/index.js"
+    },
+    "./CodeGeeX": {
+      "types": "./dist/CodeGeeX/index.d.ts",
+      "svelte": "./dist/CodeGeeX/index.js",
+      "default": "./dist/CodeGeeX/index.js"
+    },
+    "./Codex": {
+      "types": "./dist/Codex/index.d.ts",
+      "svelte": "./dist/Codex/index.js",
+      "default": "./dist/Codex/index.js"
+    },
+    "./Cody": {
+      "types": "./dist/Cody/index.d.ts",
+      "svelte": "./dist/Cody/index.js",
+      "default": "./dist/Cody/index.js"
+    },
+    "./Cohere": {
+      "types": "./dist/Cohere/index.d.ts",
+      "svelte": "./dist/Cohere/index.js",
+      "default": "./dist/Cohere/index.js"
+    },
+    "./Colab": {
+      "types": "./dist/Colab/index.d.ts",
+      "svelte": "./dist/Colab/index.js",
+      "default": "./dist/Colab/index.js"
+    },
+    "./CometAPI": {
+      "types": "./dist/CometAPI/index.d.ts",
+      "svelte": "./dist/CometAPI/index.js",
+      "default": "./dist/CometAPI/index.js"
+    },
+    "./ComfyUI": {
+      "types": "./dist/ComfyUI/index.d.ts",
+      "svelte": "./dist/ComfyUI/index.js",
+      "default": "./dist/ComfyUI/index.js"
+    },
+    "./CommandA": {
+      "types": "./dist/CommandA/index.d.ts",
+      "svelte": "./dist/CommandA/index.js",
+      "default": "./dist/CommandA/index.js"
+    },
+    "./ContinueDev": {
+      "types": "./dist/ContinueDev/index.d.ts",
+      "svelte": "./dist/ContinueDev/index.js",
+      "default": "./dist/ContinueDev/index.js"
+    },
+    "./Copilot": {
+      "types": "./dist/Copilot/index.d.ts",
+      "svelte": "./dist/Copilot/index.js",
+      "default": "./dist/Copilot/index.js"
+    },
+    "./CopilotKit": {
+      "types": "./dist/CopilotKit/index.d.ts",
+      "svelte": "./dist/CopilotKit/index.js",
+      "default": "./dist/CopilotKit/index.js"
+    },
+    "./Coqui": {
+      "types": "./dist/Coqui/index.d.ts",
+      "svelte": "./dist/Coqui/index.js",
+      "default": "./dist/Coqui/index.js"
+    },
+    "./CoreWeave": {
+      "types": "./dist/CoreWeave/index.d.ts",
+      "svelte": "./dist/CoreWeave/index.js",
+      "default": "./dist/CoreWeave/index.js"
+    },
+    "./Coze": {
+      "types": "./dist/Coze/index.d.ts",
+      "svelte": "./dist/Coze/index.js",
+      "default": "./dist/Coze/index.js"
+    },
+    "./CrewAI": {
+      "types": "./dist/CrewAI/index.d.ts",
+      "svelte": "./dist/CrewAI/index.js",
+      "default": "./dist/CrewAI/index.js"
+    },
+    "./Crusoe": {
+      "types": "./dist/Crusoe/index.d.ts",
+      "svelte": "./dist/Crusoe/index.js",
+      "default": "./dist/Crusoe/index.js"
+    },
+    "./Cursor": {
+      "types": "./dist/Cursor/index.d.ts",
+      "svelte": "./dist/Cursor/index.js",
+      "default": "./dist/Cursor/index.js"
+    },
+    "./CyberCut": {
+      "types": "./dist/CyberCut/index.d.ts",
+      "svelte": "./dist/CyberCut/index.js",
+      "default": "./dist/CyberCut/index.js"
+    },
+    "./Dalle": {
+      "types": "./dist/Dalle/index.d.ts",
+      "svelte": "./dist/Dalle/index.js",
+      "default": "./dist/Dalle/index.js"
+    },
+    "./Dbrx": {
+      "types": "./dist/Dbrx/index.d.ts",
+      "svelte": "./dist/Dbrx/index.js",
+      "default": "./dist/Dbrx/index.js"
+    },
+    "./DeepAI": {
+      "types": "./dist/DeepAI/index.d.ts",
+      "svelte": "./dist/DeepAI/index.js",
+      "default": "./dist/DeepAI/index.js"
+    },
+    "./DeepCogito": {
+      "types": "./dist/DeepCogito/index.d.ts",
+      "svelte": "./dist/DeepCogito/index.js",
+      "default": "./dist/DeepCogito/index.js"
+    },
+    "./DeepInfra": {
+      "types": "./dist/DeepInfra/index.d.ts",
+      "svelte": "./dist/DeepInfra/index.js",
+      "default": "./dist/DeepInfra/index.js"
+    },
+    "./DeepL": {
+      "types": "./dist/DeepL/index.d.ts",
+      "svelte": "./dist/DeepL/index.js",
+      "default": "./dist/DeepL/index.js"
+    },
+    "./DeepMind": {
+      "types": "./dist/DeepMind/index.d.ts",
+      "svelte": "./dist/DeepMind/index.js",
+      "default": "./dist/DeepMind/index.js"
+    },
+    "./DeepSeek": {
+      "types": "./dist/DeepSeek/index.d.ts",
+      "svelte": "./dist/DeepSeek/index.js",
+      "default": "./dist/DeepSeek/index.js"
+    },
+    "./Deepgram": {
+      "types": "./dist/Deepgram/index.d.ts",
+      "svelte": "./dist/Deepgram/index.js",
+      "default": "./dist/Deepgram/index.js"
+    },
+    "./Devin": {
+      "types": "./dist/Devin/index.d.ts",
+      "svelte": "./dist/Devin/index.js",
+      "default": "./dist/Devin/index.js"
+    },
+    "./Dify": {
+      "types": "./dist/Dify/index.d.ts",
+      "svelte": "./dist/Dify/index.js",
+      "default": "./dist/Dify/index.js"
+    },
+    "./Doc2X": {
+      "types": "./dist/Doc2X/index.d.ts",
+      "svelte": "./dist/Doc2X/index.js",
+      "default": "./dist/Doc2X/index.js"
+    },
+    "./DocSearch": {
+      "types": "./dist/DocSearch/index.d.ts",
+      "svelte": "./dist/DocSearch/index.js",
+      "default": "./dist/DocSearch/index.js"
+    },
+    "./Dolphin": {
+      "types": "./dist/Dolphin/index.d.ts",
+      "svelte": "./dist/Dolphin/index.js",
+      "default": "./dist/Dolphin/index.js"
+    },
+    "./Doubao": {
+      "types": "./dist/Doubao/index.d.ts",
+      "svelte": "./dist/Doubao/index.js",
+      "default": "./dist/Doubao/index.js"
+    },
+    "./DreamMachine": {
+      "types": "./dist/DreamMachine/index.d.ts",
+      "svelte": "./dist/DreamMachine/index.js",
+      "default": "./dist/DreamMachine/index.js"
+    },
+    "./ElevenLabs": {
+      "types": "./dist/ElevenLabs/index.d.ts",
+      "svelte": "./dist/ElevenLabs/index.js",
+      "default": "./dist/ElevenLabs/index.js"
+    },
+    "./ElevenX": {
+      "types": "./dist/ElevenX/index.d.ts",
+      "svelte": "./dist/ElevenX/index.js",
+      "default": "./dist/ElevenX/index.js"
+    },
+    "./EssentialAI": {
+      "types": "./dist/EssentialAI/index.d.ts",
+      "svelte": "./dist/EssentialAI/index.js",
+      "default": "./dist/EssentialAI/index.js"
+    },
+    "./Exa": {
+      "types": "./dist/Exa/index.d.ts",
+      "svelte": "./dist/Exa/index.js",
+      "default": "./dist/Exa/index.js"
+    },
+    "./Fal": {
+      "types": "./dist/Fal/index.d.ts",
+      "svelte": "./dist/Fal/index.js",
+      "default": "./dist/Fal/index.js"
+    },
+    "./FastGPT": {
+      "types": "./dist/FastGPT/index.d.ts",
+      "svelte": "./dist/FastGPT/index.js",
+      "default": "./dist/FastGPT/index.js"
+    },
+    "./Featherless": {
+      "types": "./dist/Featherless/index.d.ts",
+      "svelte": "./dist/Featherless/index.js",
+      "default": "./dist/Featherless/index.js"
+    },
+    "./Figma": {
+      "types": "./dist/Figma/index.d.ts",
+      "svelte": "./dist/Figma/index.js",
+      "default": "./dist/Figma/index.js"
+    },
+    "./Fireworks": {
+      "types": "./dist/Fireworks/index.d.ts",
+      "svelte": "./dist/Fireworks/index.js",
+      "default": "./dist/Fireworks/index.js"
+    },
+    "./FishAudio": {
+      "types": "./dist/FishAudio/index.d.ts",
+      "svelte": "./dist/FishAudio/index.js",
+      "default": "./dist/FishAudio/index.js"
+    },
+    "./Flora": {
+      "types": "./dist/Flora/index.d.ts",
+      "svelte": "./dist/Flora/index.js",
+      "default": "./dist/Flora/index.js"
+    },
+    "./Flowith": {
+      "types": "./dist/Flowith/index.d.ts",
+      "svelte": "./dist/Flowith/index.js",
+      "default": "./dist/Flowith/index.js"
+    },
+    "./Flux": {
+      "types": "./dist/Flux/index.d.ts",
+      "svelte": "./dist/Flux/index.js",
+      "default": "./dist/Flux/index.js"
+    },
+    "./Friendli": {
+      "types": "./dist/Friendli/index.d.ts",
+      "svelte": "./dist/Friendli/index.js",
+      "default": "./dist/Friendli/index.js"
+    },
+    "./GLMV": {
+      "types": "./dist/GLMV/index.d.ts",
+      "svelte": "./dist/GLMV/index.js",
+      "default": "./dist/GLMV/index.js"
+    },
+    "./Gemini": {
+      "types": "./dist/Gemini/index.d.ts",
+      "svelte": "./dist/Gemini/index.js",
+      "default": "./dist/Gemini/index.js"
+    },
+    "./GeminiCLI": {
+      "types": "./dist/GeminiCLI/index.d.ts",
+      "svelte": "./dist/GeminiCLI/index.js",
+      "default": "./dist/GeminiCLI/index.js"
+    },
+    "./Gemma": {
+      "types": "./dist/Gemma/index.d.ts",
+      "svelte": "./dist/Gemma/index.js",
+      "default": "./dist/Gemma/index.js"
+    },
+    "./GiteeAI": {
+      "types": "./dist/GiteeAI/index.d.ts",
+      "svelte": "./dist/GiteeAI/index.js",
+      "default": "./dist/GiteeAI/index.js"
+    },
+    "./Github": {
+      "types": "./dist/Github/index.d.ts",
+      "svelte": "./dist/Github/index.js",
+      "default": "./dist/Github/index.js"
+    },
+    "./GithubCopilot": {
+      "types": "./dist/GithubCopilot/index.d.ts",
+      "svelte": "./dist/GithubCopilot/index.js",
+      "default": "./dist/GithubCopilot/index.js"
+    },
+    "./Glama": {
+      "types": "./dist/Glama/index.d.ts",
+      "svelte": "./dist/Glama/index.js",
+      "default": "./dist/Glama/index.js"
+    },
+    "./Glif": {
+      "types": "./dist/Glif/index.d.ts",
+      "svelte": "./dist/Glif/index.js",
+      "default": "./dist/Glif/index.js"
+    },
+    "./Google": {
+      "types": "./dist/Google/index.d.ts",
+      "svelte": "./dist/Google/index.js",
+      "default": "./dist/Google/index.js"
+    },
+    "./GoogleCloud": {
+      "types": "./dist/GoogleCloud/index.d.ts",
+      "svelte": "./dist/GoogleCloud/index.js",
+      "default": "./dist/GoogleCloud/index.js"
+    },
+    "./Goose": {
+      "types": "./dist/Goose/index.d.ts",
+      "svelte": "./dist/Goose/index.js",
+      "default": "./dist/Goose/index.js"
+    },
+    "./Gradio": {
+      "types": "./dist/Gradio/index.d.ts",
+      "svelte": "./dist/Gradio/index.js",
+      "default": "./dist/Gradio/index.js"
+    },
+    "./Greptile": {
+      "types": "./dist/Greptile/index.d.ts",
+      "svelte": "./dist/Greptile/index.js",
+      "default": "./dist/Greptile/index.js"
+    },
+    "./Grok": {
+      "types": "./dist/Grok/index.d.ts",
+      "svelte": "./dist/Grok/index.js",
+      "default": "./dist/Grok/index.js"
+    },
+    "./Groq": {
+      "types": "./dist/Groq/index.d.ts",
+      "svelte": "./dist/Groq/index.js",
+      "default": "./dist/Groq/index.js"
+    },
+    "./Hailuo": {
+      "types": "./dist/Hailuo/index.d.ts",
+      "svelte": "./dist/Hailuo/index.js",
+      "default": "./dist/Hailuo/index.js"
+    },
+    "./Haiper": {
+      "types": "./dist/Haiper/index.d.ts",
+      "svelte": "./dist/Haiper/index.js",
+      "default": "./dist/Haiper/index.js"
+    },
+    "./Hedra": {
+      "types": "./dist/Hedra/index.d.ts",
+      "svelte": "./dist/Hedra/index.js",
+      "default": "./dist/Hedra/index.js"
+    },
+    "./Helicone": {
+      "types": "./dist/Helicone/index.d.ts",
+      "svelte": "./dist/Helicone/index.js",
+      "default": "./dist/Helicone/index.js"
+    },
+    "./HermesAgent": {
+      "types": "./dist/HermesAgent/index.d.ts",
+      "svelte": "./dist/HermesAgent/index.js",
+      "default": "./dist/HermesAgent/index.js"
+    },
+    "./Higress": {
+      "types": "./dist/Higress/index.d.ts",
+      "svelte": "./dist/Higress/index.js",
+      "default": "./dist/Higress/index.js"
+    },
+    "./Huawei": {
+      "types": "./dist/Huawei/index.d.ts",
+      "svelte": "./dist/Huawei/index.js",
+      "default": "./dist/Huawei/index.js"
+    },
+    "./HuaweiCloud": {
+      "types": "./dist/HuaweiCloud/index.d.ts",
+      "svelte": "./dist/HuaweiCloud/index.js",
+      "default": "./dist/HuaweiCloud/index.js"
+    },
+    "./HuggingFace": {
+      "types": "./dist/HuggingFace/index.d.ts",
+      "svelte": "./dist/HuggingFace/index.js",
+      "default": "./dist/HuggingFace/index.js"
+    },
+    "./Hunyuan": {
+      "types": "./dist/Hunyuan/index.d.ts",
+      "svelte": "./dist/Hunyuan/index.js",
+      "default": "./dist/Hunyuan/index.js"
+    },
+    "./Hyperbolic": {
+      "types": "./dist/Hyperbolic/index.d.ts",
+      "svelte": "./dist/Hyperbolic/index.js",
+      "default": "./dist/Hyperbolic/index.js"
+    },
+    "./IBM": {
+      "types": "./dist/IBM/index.d.ts",
+      "svelte": "./dist/IBM/index.js",
+      "default": "./dist/IBM/index.js"
+    },
+    "./IFlyTekCloud": {
+      "types": "./dist/IFlyTekCloud/index.d.ts",
+      "svelte": "./dist/IFlyTekCloud/index.js",
+      "default": "./dist/IFlyTekCloud/index.js"
+    },
+    "./Ideogram": {
+      "types": "./dist/Ideogram/index.d.ts",
+      "svelte": "./dist/Ideogram/index.js",
+      "default": "./dist/Ideogram/index.js"
+    },
+    "./Inception": {
+      "types": "./dist/Inception/index.d.ts",
+      "svelte": "./dist/Inception/index.js",
+      "default": "./dist/Inception/index.js"
+    },
+    "./Inference": {
+      "types": "./dist/Inference/index.d.ts",
+      "svelte": "./dist/Inference/index.js",
+      "default": "./dist/Inference/index.js"
+    },
+    "./Infermatic": {
+      "types": "./dist/Infermatic/index.d.ts",
+      "svelte": "./dist/Infermatic/index.js",
+      "default": "./dist/Infermatic/index.js"
+    },
+    "./Infinigence": {
+      "types": "./dist/Infinigence/index.d.ts",
+      "svelte": "./dist/Infinigence/index.js",
+      "default": "./dist/Infinigence/index.js"
+    },
+    "./Inflection": {
+      "types": "./dist/Inflection/index.d.ts",
+      "svelte": "./dist/Inflection/index.js",
+      "default": "./dist/Inflection/index.js"
+    },
+    "./InternLM": {
+      "types": "./dist/InternLM/index.d.ts",
+      "svelte": "./dist/InternLM/index.js",
+      "default": "./dist/InternLM/index.js"
+    },
+    "./Jimeng": {
+      "types": "./dist/Jimeng/index.d.ts",
+      "svelte": "./dist/Jimeng/index.js",
+      "default": "./dist/Jimeng/index.js"
+    },
+    "./Jina": {
+      "types": "./dist/Jina/index.d.ts",
+      "svelte": "./dist/Jina/index.js",
+      "default": "./dist/Jina/index.js"
+    },
+    "./Junie": {
+      "types": "./dist/Junie/index.d.ts",
+      "svelte": "./dist/Junie/index.js",
+      "default": "./dist/Junie/index.js"
+    },
+    "./KiloCode": {
+      "types": "./dist/KiloCode/index.d.ts",
+      "svelte": "./dist/KiloCode/index.js",
+      "default": "./dist/KiloCode/index.js"
+    },
+    "./Kimi": {
+      "types": "./dist/Kimi/index.d.ts",
+      "svelte": "./dist/Kimi/index.js",
+      "default": "./dist/Kimi/index.js"
+    },
+    "./Kling": {
+      "types": "./dist/Kling/index.d.ts",
+      "svelte": "./dist/Kling/index.js",
+      "default": "./dist/Kling/index.js"
+    },
+    "./Kluster": {
+      "types": "./dist/Kluster/index.d.ts",
+      "svelte": "./dist/Kluster/index.js",
+      "default": "./dist/Kluster/index.js"
+    },
+    "./Kolors": {
+      "types": "./dist/Kolors/index.d.ts",
+      "svelte": "./dist/Kolors/index.js",
+      "default": "./dist/Kolors/index.js"
+    },
+    "./Krea": {
+      "types": "./dist/Krea/index.d.ts",
+      "svelte": "./dist/Krea/index.js",
+      "default": "./dist/Krea/index.js"
+    },
+    "./KwaiKAT": {
+      "types": "./dist/KwaiKAT/index.d.ts",
+      "svelte": "./dist/KwaiKAT/index.js",
+      "default": "./dist/KwaiKAT/index.js"
+    },
+    "./Kwaipilot": {
+      "types": "./dist/Kwaipilot/index.d.ts",
+      "svelte": "./dist/Kwaipilot/index.js",
+      "default": "./dist/Kwaipilot/index.js"
+    },
+    "./LG": {
+      "types": "./dist/LG/index.d.ts",
+      "svelte": "./dist/LG/index.js",
+      "default": "./dist/LG/index.js"
+    },
+    "./LLaVA": {
+      "types": "./dist/LLaVA/index.d.ts",
+      "svelte": "./dist/LLaVA/index.js",
+      "default": "./dist/LLaVA/index.js"
+    },
+    "./Lambda": {
+      "types": "./dist/Lambda/index.d.ts",
+      "svelte": "./dist/Lambda/index.js",
+      "default": "./dist/Lambda/index.js"
+    },
+    "./LangChain": {
+      "types": "./dist/LangChain/index.d.ts",
+      "svelte": "./dist/LangChain/index.js",
+      "default": "./dist/LangChain/index.js"
+    },
+    "./LangFlow": {
+      "types": "./dist/LangFlow/index.d.ts",
+      "svelte": "./dist/LangFlow/index.js",
+      "default": "./dist/LangFlow/index.js"
+    },
+    "./LangGraph": {
+      "types": "./dist/LangGraph/index.d.ts",
+      "svelte": "./dist/LangGraph/index.js",
+      "default": "./dist/LangGraph/index.js"
+    },
+    "./LangSmith": {
+      "types": "./dist/LangSmith/index.d.ts",
+      "svelte": "./dist/LangSmith/index.js",
+      "default": "./dist/LangSmith/index.js"
+    },
+    "./Langfuse": {
+      "types": "./dist/Langfuse/index.d.ts",
+      "svelte": "./dist/Langfuse/index.js",
+      "default": "./dist/Langfuse/index.js"
+    },
+    "./LeptonAI": {
+      "types": "./dist/LeptonAI/index.d.ts",
+      "svelte": "./dist/LeptonAI/index.js",
+      "default": "./dist/LeptonAI/index.js"
+    },
+    "./Lightricks": {
+      "types": "./dist/Lightricks/index.d.ts",
+      "svelte": "./dist/Lightricks/index.js",
+      "default": "./dist/Lightricks/index.js"
+    },
+    "./Liquid": {
+      "types": "./dist/Liquid/index.d.ts",
+      "svelte": "./dist/Liquid/index.js",
+      "default": "./dist/Liquid/index.js"
+    },
+    "./LiveKit": {
+      "types": "./dist/LiveKit/index.d.ts",
+      "svelte": "./dist/LiveKit/index.js",
+      "default": "./dist/LiveKit/index.js"
+    },
+    "./LlamaIndex": {
+      "types": "./dist/LlamaIndex/index.d.ts",
+      "svelte": "./dist/LlamaIndex/index.js",
+      "default": "./dist/LlamaIndex/index.js"
+    },
+    "./LlmApi": {
+      "types": "./dist/LlmApi/index.d.ts",
+      "svelte": "./dist/LlmApi/index.js",
+      "default": "./dist/LlmApi/index.js"
+    },
+    "./LmStudio": {
+      "types": "./dist/LmStudio/index.d.ts",
+      "svelte": "./dist/LmStudio/index.js",
+      "default": "./dist/LmStudio/index.js"
+    },
+    "./LobeHub": {
+      "types": "./dist/LobeHub/index.d.ts",
+      "svelte": "./dist/LobeHub/index.js",
+      "default": "./dist/LobeHub/index.js"
+    },
+    "./LongCat": {
+      "types": "./dist/LongCat/index.d.ts",
+      "svelte": "./dist/LongCat/index.js",
+      "default": "./dist/LongCat/index.js"
+    },
+    "./Lovable": {
+      "types": "./dist/Lovable/index.d.ts",
+      "svelte": "./dist/Lovable/index.js",
+      "default": "./dist/Lovable/index.js"
+    },
+    "./Lovart": {
+      "types": "./dist/Lovart/index.d.ts",
+      "svelte": "./dist/Lovart/index.js",
+      "default": "./dist/Lovart/index.js"
+    },
+    "./Luma": {
+      "types": "./dist/Luma/index.d.ts",
+      "svelte": "./dist/Luma/index.js",
+      "default": "./dist/Luma/index.js"
+    },
+    "./MCP": {
+      "types": "./dist/MCP/index.d.ts",
+      "svelte": "./dist/MCP/index.js",
+      "default": "./dist/MCP/index.js"
+    },
+    "./Magic": {
+      "types": "./dist/Magic/index.d.ts",
+      "svelte": "./dist/Magic/index.js",
+      "default": "./dist/Magic/index.js"
+    },
+    "./Make": {
+      "types": "./dist/Make/index.d.ts",
+      "svelte": "./dist/Make/index.js",
+      "default": "./dist/Make/index.js"
+    },
+    "./Manus": {
+      "types": "./dist/Manus/index.d.ts",
+      "svelte": "./dist/Manus/index.js",
+      "default": "./dist/Manus/index.js"
+    },
+    "./Mastra": {
+      "types": "./dist/Mastra/index.d.ts",
+      "svelte": "./dist/Mastra/index.js",
+      "default": "./dist/Mastra/index.js"
+    },
+    "./McpSo": {
+      "types": "./dist/McpSo/index.d.ts",
+      "svelte": "./dist/McpSo/index.js",
+      "default": "./dist/McpSo/index.js"
+    },
+    "./Menlo": {
+      "types": "./dist/Menlo/index.d.ts",
+      "svelte": "./dist/Menlo/index.js",
+      "default": "./dist/Menlo/index.js"
+    },
+    "./Meshy": {
+      "types": "./dist/Meshy/index.d.ts",
+      "svelte": "./dist/Meshy/index.js",
+      "default": "./dist/Meshy/index.js"
+    },
+    "./Meta": {
+      "types": "./dist/Meta/index.d.ts",
+      "svelte": "./dist/Meta/index.js",
+      "default": "./dist/Meta/index.js"
+    },
+    "./MetaAI": {
+      "types": "./dist/MetaAI/index.d.ts",
+      "svelte": "./dist/MetaAI/index.js",
+      "default": "./dist/MetaAI/index.js"
+    },
+    "./MetaGPT": {
+      "types": "./dist/MetaGPT/index.d.ts",
+      "svelte": "./dist/MetaGPT/index.js",
+      "default": "./dist/MetaGPT/index.js"
+    },
+    "./Microsoft": {
+      "types": "./dist/Microsoft/index.d.ts",
+      "svelte": "./dist/Microsoft/index.js",
+      "default": "./dist/Microsoft/index.js"
+    },
+    "./Midjourney": {
+      "types": "./dist/Midjourney/index.d.ts",
+      "svelte": "./dist/Midjourney/index.js",
+      "default": "./dist/Midjourney/index.js"
+    },
+    "./Milvus": {
+      "types": "./dist/Milvus/index.d.ts",
+      "svelte": "./dist/Milvus/index.js",
+      "default": "./dist/Milvus/index.js"
+    },
+    "./Minimax": {
+      "types": "./dist/Minimax/index.d.ts",
+      "svelte": "./dist/Minimax/index.js",
+      "default": "./dist/Minimax/index.js"
+    },
+    "./Mistral": {
+      "types": "./dist/Mistral/index.d.ts",
+      "svelte": "./dist/Mistral/index.js",
+      "default": "./dist/Mistral/index.js"
+    },
+    "./Modal": {
+      "types": "./dist/Modal/index.d.ts",
+      "svelte": "./dist/Modal/index.js",
+      "default": "./dist/Modal/index.js"
+    },
+    "./ModelScope": {
+      "types": "./dist/ModelScope/index.d.ts",
+      "svelte": "./dist/ModelScope/index.js",
+      "default": "./dist/ModelScope/index.js"
+    },
+    "./Monica": {
+      "types": "./dist/Monica/index.d.ts",
+      "svelte": "./dist/Monica/index.js",
+      "default": "./dist/Monica/index.js"
+    },
+    "./Moonshot": {
+      "types": "./dist/Moonshot/index.d.ts",
+      "svelte": "./dist/Moonshot/index.js",
+      "default": "./dist/Moonshot/index.js"
+    },
+    "./Morph": {
+      "types": "./dist/Morph/index.d.ts",
+      "svelte": "./dist/Morph/index.js",
+      "default": "./dist/Morph/index.js"
+    },
+    "./MyShell": {
+      "types": "./dist/MyShell/index.d.ts",
+      "svelte": "./dist/MyShell/index.js",
+      "default": "./dist/MyShell/index.js"
+    },
+    "./N8n": {
+      "types": "./dist/N8n/index.d.ts",
+      "svelte": "./dist/N8n/index.js",
+      "default": "./dist/N8n/index.js"
+    },
+    "./NPLCloud": {
+      "types": "./dist/NPLCloud/index.d.ts",
+      "svelte": "./dist/NPLCloud/index.js",
+      "default": "./dist/NPLCloud/index.js"
+    },
+    "./NanoBanana": {
+      "types": "./dist/NanoBanana/index.d.ts",
+      "svelte": "./dist/NanoBanana/index.js",
+      "default": "./dist/NanoBanana/index.js"
+    },
+    "./Nebius": {
+      "types": "./dist/Nebius/index.d.ts",
+      "svelte": "./dist/Nebius/index.js",
+      "default": "./dist/Nebius/index.js"
+    },
+    "./NewAPI": {
+      "types": "./dist/NewAPI/index.d.ts",
+      "svelte": "./dist/NewAPI/index.js",
+      "default": "./dist/NewAPI/index.js"
+    },
+    "./NotebookLM": {
+      "types": "./dist/NotebookLM/index.d.ts",
+      "svelte": "./dist/NotebookLM/index.js",
+      "default": "./dist/NotebookLM/index.js"
+    },
+    "./Notion": {
+      "types": "./dist/Notion/index.d.ts",
+      "svelte": "./dist/Notion/index.js",
+      "default": "./dist/Notion/index.js"
+    },
+    "./NousResearch": {
+      "types": "./dist/NousResearch/index.d.ts",
+      "svelte": "./dist/NousResearch/index.js",
+      "default": "./dist/NousResearch/index.js"
+    },
+    "./Nova": {
+      "types": "./dist/Nova/index.d.ts",
+      "svelte": "./dist/Nova/index.js",
+      "default": "./dist/Nova/index.js"
+    },
+    "./NovelAI": {
+      "types": "./dist/NovelAI/index.d.ts",
+      "svelte": "./dist/NovelAI/index.js",
+      "default": "./dist/NovelAI/index.js"
+    },
+    "./Novita": {
+      "types": "./dist/Novita/index.d.ts",
+      "svelte": "./dist/Novita/index.js",
+      "default": "./dist/Novita/index.js"
+    },
+    "./Nvidia": {
+      "types": "./dist/Nvidia/index.d.ts",
+      "svelte": "./dist/Nvidia/index.js",
+      "default": "./dist/Nvidia/index.js"
+    },
+    "./Obsidian": {
+      "types": "./dist/Obsidian/index.d.ts",
+      "svelte": "./dist/Obsidian/index.js",
+      "default": "./dist/Obsidian/index.js"
+    },
+    "./Ollama": {
+      "types": "./dist/Ollama/index.d.ts",
+      "svelte": "./dist/Ollama/index.js",
+      "default": "./dist/Ollama/index.js"
+    },
+    "./OpenAI": {
+      "types": "./dist/OpenAI/index.d.ts",
+      "svelte": "./dist/OpenAI/index.js",
+      "default": "./dist/OpenAI/index.js"
+    },
+    "./OpenChat": {
+      "types": "./dist/OpenChat/index.d.ts",
+      "svelte": "./dist/OpenChat/index.js",
+      "default": "./dist/OpenChat/index.js"
+    },
+    "./OpenClaw": {
+      "types": "./dist/OpenClaw/index.d.ts",
+      "svelte": "./dist/OpenClaw/index.js",
+      "default": "./dist/OpenClaw/index.js"
+    },
+    "./OpenCode": {
+      "types": "./dist/OpenCode/index.d.ts",
+      "svelte": "./dist/OpenCode/index.js",
+      "default": "./dist/OpenCode/index.js"
+    },
+    "./OpenHands": {
+      "types": "./dist/OpenHands/index.d.ts",
+      "svelte": "./dist/OpenHands/index.js",
+      "default": "./dist/OpenHands/index.js"
+    },
+    "./OpenRouter": {
+      "types": "./dist/OpenRouter/index.d.ts",
+      "svelte": "./dist/OpenRouter/index.js",
+      "default": "./dist/OpenRouter/index.js"
+    },
+    "./OpenWebUI": {
+      "types": "./dist/OpenWebUI/index.d.ts",
+      "svelte": "./dist/OpenWebUI/index.js",
+      "default": "./dist/OpenWebUI/index.js"
+    },
+    "./PPIO": {
+      "types": "./dist/PPIO/index.d.ts",
+      "svelte": "./dist/PPIO/index.js",
+      "default": "./dist/PPIO/index.js"
+    },
+    "./PaLM": {
+      "types": "./dist/PaLM/index.d.ts",
+      "svelte": "./dist/PaLM/index.js",
+      "default": "./dist/PaLM/index.js"
+    },
+    "./Parasail": {
+      "types": "./dist/Parasail/index.d.ts",
+      "svelte": "./dist/Parasail/index.js",
+      "default": "./dist/Parasail/index.js"
+    },
+    "./Perplexity": {
+      "types": "./dist/Perplexity/index.d.ts",
+      "svelte": "./dist/Perplexity/index.js",
+      "default": "./dist/Perplexity/index.js"
+    },
+    "./Phidata": {
+      "types": "./dist/Phidata/index.d.ts",
+      "svelte": "./dist/Phidata/index.js",
+      "default": "./dist/Phidata/index.js"
+    },
+    "./Phind": {
+      "types": "./dist/Phind/index.d.ts",
+      "svelte": "./dist/Phind/index.js",
+      "default": "./dist/Phind/index.js"
+    },
+    "./Pika": {
+      "types": "./dist/Pika/index.d.ts",
+      "svelte": "./dist/Pika/index.js",
+      "default": "./dist/Pika/index.js"
+    },
+    "./Pinecone": {
+      "types": "./dist/Pinecone/index.d.ts",
+      "svelte": "./dist/Pinecone/index.js",
+      "default": "./dist/Pinecone/index.js"
+    },
+    "./PixVerse": {
+      "types": "./dist/PixVerse/index.d.ts",
+      "svelte": "./dist/PixVerse/index.js",
+      "default": "./dist/PixVerse/index.js"
+    },
+    "./Player2": {
+      "types": "./dist/Player2/index.d.ts",
+      "svelte": "./dist/Player2/index.js",
+      "default": "./dist/Player2/index.js"
+    },
+    "./Poe": {
+      "types": "./dist/Poe/index.d.ts",
+      "svelte": "./dist/Poe/index.js",
+      "default": "./dist/Poe/index.js"
+    },
+    "./Pollinations": {
+      "types": "./dist/Pollinations/index.d.ts",
+      "svelte": "./dist/Pollinations/index.js",
+      "default": "./dist/Pollinations/index.js"
+    },
+    "./PrunaAI": {
+      "types": "./dist/PrunaAI/index.d.ts",
+      "svelte": "./dist/PrunaAI/index.js",
+      "default": "./dist/PrunaAI/index.js"
+    },
+    "./PydanticAI": {
+      "types": "./dist/PydanticAI/index.d.ts",
+      "svelte": "./dist/PydanticAI/index.js",
+      "default": "./dist/PydanticAI/index.js"
+    },
+    "./Qdrant": {
+      "types": "./dist/Qdrant/index.d.ts",
+      "svelte": "./dist/Qdrant/index.js",
+      "default": "./dist/Qdrant/index.js"
+    },
+    "./Qingyan": {
+      "types": "./dist/Qingyan/index.d.ts",
+      "svelte": "./dist/Qingyan/index.js",
+      "default": "./dist/Qingyan/index.js"
+    },
+    "./Qiniu": {
+      "types": "./dist/Qiniu/index.d.ts",
+      "svelte": "./dist/Qiniu/index.js",
+      "default": "./dist/Qiniu/index.js"
+    },
+    "./Qoder": {
+      "types": "./dist/Qoder/index.d.ts",
+      "svelte": "./dist/Qoder/index.js",
+      "default": "./dist/Qoder/index.js"
+    },
+    "./Qwen": {
+      "types": "./dist/Qwen/index.d.ts",
+      "svelte": "./dist/Qwen/index.js",
+      "default": "./dist/Qwen/index.js"
+    },
+    "./RSSHub": {
+      "types": "./dist/RSSHub/index.d.ts",
+      "svelte": "./dist/RSSHub/index.js",
+      "default": "./dist/RSSHub/index.js"
+    },
+    "./Railway": {
+      "types": "./dist/Railway/index.d.ts",
+      "svelte": "./dist/Railway/index.js",
+      "default": "./dist/Railway/index.js"
+    },
+    "./Recraft": {
+      "types": "./dist/Recraft/index.d.ts",
+      "svelte": "./dist/Recraft/index.js",
+      "default": "./dist/Recraft/index.js"
+    },
+    "./Relace": {
+      "types": "./dist/Relace/index.d.ts",
+      "svelte": "./dist/Relace/index.js",
+      "default": "./dist/Relace/index.js"
+    },
+    "./Replicate": {
+      "types": "./dist/Replicate/index.d.ts",
+      "svelte": "./dist/Replicate/index.js",
+      "default": "./dist/Replicate/index.js"
+    },
+    "./Replit": {
+      "types": "./dist/Replit/index.d.ts",
+      "svelte": "./dist/Replit/index.js",
+      "default": "./dist/Replit/index.js"
+    },
+    "./Reve": {
+      "types": "./dist/Reve/index.d.ts",
+      "svelte": "./dist/Reve/index.js",
+      "default": "./dist/Reve/index.js"
+    },
+    "./RooCode": {
+      "types": "./dist/RooCode/index.d.ts",
+      "svelte": "./dist/RooCode/index.js",
+      "default": "./dist/RooCode/index.js"
+    },
+    "./Runway": {
+      "types": "./dist/Runway/index.d.ts",
+      "svelte": "./dist/Runway/index.js",
+      "default": "./dist/Runway/index.js"
+    },
+    "./Rwkv": {
+      "types": "./dist/Rwkv/index.d.ts",
+      "svelte": "./dist/Rwkv/index.js",
+      "default": "./dist/Rwkv/index.js"
+    },
+    "./SambaNova": {
+      "types": "./dist/SambaNova/index.d.ts",
+      "svelte": "./dist/SambaNova/index.js",
+      "default": "./dist/SambaNova/index.js"
+    },
+    "./Search1API": {
+      "types": "./dist/Search1API/index.d.ts",
+      "svelte": "./dist/Search1API/index.js",
+      "default": "./dist/Search1API/index.js"
+    },
+    "./SearchApi": {
+      "types": "./dist/SearchApi/index.d.ts",
+      "svelte": "./dist/SearchApi/index.js",
+      "default": "./dist/SearchApi/index.js"
+    },
+    "./SenseNova": {
+      "types": "./dist/SenseNova/index.d.ts",
+      "svelte": "./dist/SenseNova/index.js",
+      "default": "./dist/SenseNova/index.js"
+    },
+    "./SiliconCloud": {
+      "types": "./dist/SiliconCloud/index.d.ts",
+      "svelte": "./dist/SiliconCloud/index.js",
+      "default": "./dist/SiliconCloud/index.js"
+    },
+    "./Skywork": {
+      "types": "./dist/Skywork/index.d.ts",
+      "svelte": "./dist/Skywork/index.js",
+      "default": "./dist/Skywork/index.js"
+    },
+    "./Smithery": {
+      "types": "./dist/Smithery/index.d.ts",
+      "svelte": "./dist/Smithery/index.js",
+      "default": "./dist/Smithery/index.js"
+    },
+    "./Snowflake": {
+      "types": "./dist/Snowflake/index.d.ts",
+      "svelte": "./dist/Snowflake/index.js",
+      "default": "./dist/Snowflake/index.js"
+    },
+    "./SophNet": {
+      "types": "./dist/SophNet/index.d.ts",
+      "svelte": "./dist/SophNet/index.js",
+      "default": "./dist/SophNet/index.js"
+    },
+    "./Sora": {
+      "types": "./dist/Sora/index.d.ts",
+      "svelte": "./dist/Sora/index.js",
+      "default": "./dist/Sora/index.js"
+    },
+    "./Spark": {
+      "types": "./dist/Spark/index.d.ts",
+      "svelte": "./dist/Spark/index.js",
+      "default": "./dist/Spark/index.js"
+    },
+    "./SpeedAI": {
+      "types": "./dist/SpeedAI/index.d.ts",
+      "svelte": "./dist/SpeedAI/index.js",
+      "default": "./dist/SpeedAI/index.js"
+    },
+    "./Stability": {
+      "types": "./dist/Stability/index.d.ts",
+      "svelte": "./dist/Stability/index.js",
+      "default": "./dist/Stability/index.js"
+    },
+    "./StateCloud": {
+      "types": "./dist/StateCloud/index.d.ts",
+      "svelte": "./dist/StateCloud/index.js",
+      "default": "./dist/StateCloud/index.js"
+    },
+    "./Stepfun": {
+      "types": "./dist/Stepfun/index.d.ts",
+      "svelte": "./dist/Stepfun/index.js",
+      "default": "./dist/Stepfun/index.js"
+    },
+    "./Straico": {
+      "types": "./dist/Straico/index.d.ts",
+      "svelte": "./dist/Straico/index.js",
+      "default": "./dist/Straico/index.js"
+    },
+    "./StreamLake": {
+      "types": "./dist/StreamLake/index.d.ts",
+      "svelte": "./dist/StreamLake/index.js",
+      "default": "./dist/StreamLake/index.js"
+    },
+    "./SubModel": {
+      "types": "./dist/SubModel/index.d.ts",
+      "svelte": "./dist/SubModel/index.js",
+      "default": "./dist/SubModel/index.js"
+    },
+    "./Suno": {
+      "types": "./dist/Suno/index.d.ts",
+      "svelte": "./dist/Suno/index.js",
+      "default": "./dist/Suno/index.js"
+    },
+    "./Sync": {
+      "types": "./dist/Sync/index.d.ts",
+      "svelte": "./dist/Sync/index.js",
+      "default": "./dist/Sync/index.js"
+    },
+    "./TII": {
+      "types": "./dist/TII/index.d.ts",
+      "svelte": "./dist/TII/index.js",
+      "default": "./dist/TII/index.js"
+    },
+    "./Tabnine": {
+      "types": "./dist/Tabnine/index.d.ts",
+      "svelte": "./dist/Tabnine/index.js",
+      "default": "./dist/Tabnine/index.js"
+    },
+    "./Targon": {
+      "types": "./dist/Targon/index.d.ts",
+      "svelte": "./dist/Targon/index.js",
+      "default": "./dist/Targon/index.js"
+    },
+    "./Tavily": {
+      "types": "./dist/Tavily/index.d.ts",
+      "svelte": "./dist/Tavily/index.js",
+      "default": "./dist/Tavily/index.js"
+    },
+    "./Tencent": {
+      "types": "./dist/Tencent/index.d.ts",
+      "svelte": "./dist/Tencent/index.js",
+      "default": "./dist/Tencent/index.js"
+    },
+    "./TencentCloud": {
+      "types": "./dist/TencentCloud/index.d.ts",
+      "svelte": "./dist/TencentCloud/index.js",
+      "default": "./dist/TencentCloud/index.js"
+    },
+    "./Tiangong": {
+      "types": "./dist/Tiangong/index.d.ts",
+      "svelte": "./dist/Tiangong/index.js",
+      "default": "./dist/Tiangong/index.js"
+    },
+    "./Together": {
+      "types": "./dist/Together/index.d.ts",
+      "svelte": "./dist/Together/index.js",
+      "default": "./dist/Together/index.js"
+    },
+    "./TopazLabs": {
+      "types": "./dist/TopazLabs/index.d.ts",
+      "svelte": "./dist/TopazLabs/index.js",
+      "default": "./dist/TopazLabs/index.js"
+    },
+    "./Trae": {
+      "types": "./dist/Trae/index.d.ts",
+      "svelte": "./dist/Trae/index.js",
+      "default": "./dist/Trae/index.js"
+    },
+    "./Tripo": {
+      "types": "./dist/Tripo/index.d.ts",
+      "svelte": "./dist/Tripo/index.js",
+      "default": "./dist/Tripo/index.js"
+    },
+    "./TuriX": {
+      "types": "./dist/TuriX/index.d.ts",
+      "svelte": "./dist/TuriX/index.js",
+      "default": "./dist/TuriX/index.js"
+    },
+    "./Udio": {
+      "types": "./dist/Udio/index.d.ts",
+      "svelte": "./dist/Udio/index.js",
+      "default": "./dist/Udio/index.js"
+    },
+    "./Unstructured": {
+      "types": "./dist/Unstructured/index.d.ts",
+      "svelte": "./dist/Unstructured/index.js",
+      "default": "./dist/Unstructured/index.js"
+    },
+    "./Upstage": {
+      "types": "./dist/Upstage/index.d.ts",
+      "svelte": "./dist/Upstage/index.js",
+      "default": "./dist/Upstage/index.js"
+    },
+    "./V0": {
+      "types": "./dist/V0/index.d.ts",
+      "svelte": "./dist/V0/index.js",
+      "default": "./dist/V0/index.js"
+    },
+    "./VectorizerAI": {
+      "types": "./dist/VectorizerAI/index.d.ts",
+      "svelte": "./dist/VectorizerAI/index.js",
+      "default": "./dist/VectorizerAI/index.js"
+    },
+    "./Venice": {
+      "types": "./dist/Venice/index.d.ts",
+      "svelte": "./dist/Venice/index.js",
+      "default": "./dist/Venice/index.js"
+    },
+    "./Vercel": {
+      "types": "./dist/Vercel/index.d.ts",
+      "svelte": "./dist/Vercel/index.js",
+      "default": "./dist/Vercel/index.js"
+    },
+    "./VertexAI": {
+      "types": "./dist/VertexAI/index.d.ts",
+      "svelte": "./dist/VertexAI/index.js",
+      "default": "./dist/VertexAI/index.js"
+    },
+    "./Vidu": {
+      "types": "./dist/Vidu/index.d.ts",
+      "svelte": "./dist/Vidu/index.js",
+      "default": "./dist/Vidu/index.js"
+    },
+    "./Viggle": {
+      "types": "./dist/Viggle/index.d.ts",
+      "svelte": "./dist/Viggle/index.js",
+      "default": "./dist/Viggle/index.js"
+    },
+    "./Vllm": {
+      "types": "./dist/Vllm/index.d.ts",
+      "svelte": "./dist/Vllm/index.js",
+      "default": "./dist/Vllm/index.js"
+    },
+    "./Volcengine": {
+      "types": "./dist/Volcengine/index.d.ts",
+      "svelte": "./dist/Volcengine/index.js",
+      "default": "./dist/Volcengine/index.js"
+    },
+    "./Voyage": {
+      "types": "./dist/Voyage/index.d.ts",
+      "svelte": "./dist/Voyage/index.js",
+      "default": "./dist/Voyage/index.js"
+    },
+    "./WandB": {
+      "types": "./dist/WandB/index.d.ts",
+      "svelte": "./dist/WandB/index.js",
+      "default": "./dist/WandB/index.js"
+    },
+    "./Weaviate": {
+      "types": "./dist/Weaviate/index.d.ts",
+      "svelte": "./dist/Weaviate/index.js",
+      "default": "./dist/Weaviate/index.js"
+    },
+    "./Wenxin": {
+      "types": "./dist/Wenxin/index.d.ts",
+      "svelte": "./dist/Wenxin/index.js",
+      "default": "./dist/Wenxin/index.js"
+    },
+    "./Windsurf": {
+      "types": "./dist/Windsurf/index.d.ts",
+      "svelte": "./dist/Windsurf/index.js",
+      "default": "./dist/Windsurf/index.js"
+    },
+    "./WorkersAI": {
+      "types": "./dist/WorkersAI/index.d.ts",
+      "svelte": "./dist/WorkersAI/index.js",
+      "default": "./dist/WorkersAI/index.js"
+    },
+    "./XAI": {
+      "types": "./dist/XAI/index.d.ts",
+      "svelte": "./dist/XAI/index.js",
+      "default": "./dist/XAI/index.js"
+    },
+    "./XiaomiMiMo": {
+      "types": "./dist/XiaomiMiMo/index.d.ts",
+      "svelte": "./dist/XiaomiMiMo/index.js",
+      "default": "./dist/XiaomiMiMo/index.js"
+    },
+    "./Xinference": {
+      "types": "./dist/Xinference/index.d.ts",
+      "svelte": "./dist/Xinference/index.js",
+      "default": "./dist/Xinference/index.js"
+    },
+    "./Xpay": {
+      "types": "./dist/Xpay/index.d.ts",
+      "svelte": "./dist/Xpay/index.js",
+      "default": "./dist/Xpay/index.js"
+    },
+    "./Xuanyuan": {
+      "types": "./dist/Xuanyuan/index.d.ts",
+      "svelte": "./dist/Xuanyuan/index.js",
+      "default": "./dist/Xuanyuan/index.js"
+    },
+    "./Yandex": {
+      "types": "./dist/Yandex/index.d.ts",
+      "svelte": "./dist/Yandex/index.js",
+      "default": "./dist/Yandex/index.js"
+    },
+    "./Yi": {
+      "types": "./dist/Yi/index.d.ts",
+      "svelte": "./dist/Yi/index.js",
+      "default": "./dist/Yi/index.js"
+    },
+    "./YouMind": {
+      "types": "./dist/YouMind/index.d.ts",
+      "svelte": "./dist/YouMind/index.js",
+      "default": "./dist/YouMind/index.js"
+    },
+    "./Yuanbao": {
+      "types": "./dist/Yuanbao/index.d.ts",
+      "svelte": "./dist/Yuanbao/index.js",
+      "default": "./dist/Yuanbao/index.js"
+    },
+    "./ZAI": {
+      "types": "./dist/ZAI/index.d.ts",
+      "svelte": "./dist/ZAI/index.js",
+      "default": "./dist/ZAI/index.js"
+    },
+    "./Zapier": {
+      "types": "./dist/Zapier/index.d.ts",
+      "svelte": "./dist/Zapier/index.js",
+      "default": "./dist/Zapier/index.js"
+    },
+    "./Zeabur": {
+      "types": "./dist/Zeabur/index.d.ts",
+      "svelte": "./dist/Zeabur/index.js",
+      "default": "./dist/Zeabur/index.js"
+    },
+    "./ZenMux": {
+      "types": "./dist/ZenMux/index.d.ts",
+      "svelte": "./dist/ZenMux/index.js",
+      "default": "./dist/ZenMux/index.js"
+    },
+    "./Zencoder": {
+      "types": "./dist/Zencoder/index.d.ts",
+      "svelte": "./dist/Zencoder/index.js",
+      "default": "./dist/Zencoder/index.js"
+    },
+    "./ZeroOne": {
+      "types": "./dist/ZeroOne/index.d.ts",
+      "svelte": "./dist/ZeroOne/index.js",
+      "default": "./dist/ZeroOne/index.js"
+    },
+    "./Zhipu": {
+      "types": "./dist/Zhipu/index.d.ts",
+      "svelte": "./dist/Zhipu/index.js",
+      "default": "./dist/Zhipu/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "codegen": "tsx scripts/codegen.ts",
+    "build": "tsx scripts/build.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "svelte": "^4.0.0 || ^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "svelte": "^5.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
