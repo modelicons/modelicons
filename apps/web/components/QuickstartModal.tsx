@@ -34,11 +34,28 @@ const ProviderIcon = lazy(() =>
 </Suspense>`;
 
 const FEATURES = [
-  { title: 'Zero deps', body: 'Only react as peer. No antd, no CSS-in-JS engine, no utility libs.' },
+  { title: 'Zero deps', body: 'No antd, no CSS-in-JS engine, no utility libs.' },
   { title: 'Tree-shake friendly', body: '~5 KB minified per icon. 30 brands ≈ 60 KB gzipped.' },
-  { title: 'RSC ready', body: 'Render in Next.js Server Components for 0 KB client cost.' },
+  { title: 'Multi-framework', body: 'React (modelicons), Vue 3 (@modelicons/vue), raw SVG (@modelicons/svg).' },
   { title: '319 brands', body: 'LLM, image gen, video gen, audio, code agents, cloud, vector DBs.' },
 ];
+
+const VUE_SNIPPET = `<script setup>
+import { Mono as OpenAI } from '@modelicons/vue/OpenAI';
+import { Color as Gemini } from '@modelicons/vue/Gemini';
+</script>
+
+<template>
+  <OpenAI :size="32" />
+  <Gemini :size="48" />
+</template>`;
+
+const SVG_SNIPPET = `// Svelte / SolidJS / Astro / vanilla HTML
+import { mono } from '@modelicons/svg/OpenAI';
+
+document.getElementById('logo').innerHTML = mono;
+// or in Svelte:  {@html mono}
+// or in SolidJS: <div innerHTML={mono} />`;
 
 export function QuickstartModal({ onClose }: { onClose: () => void }) {
   useEffect(() => {
@@ -81,18 +98,14 @@ export function QuickstartModal({ onClose }: { onClose: () => void }) {
           </div>
         </section>
 
-        {/* 1. Install */}
+        {/* React */}
         <section className="code-section">
-          <h3>1. Install</h3>
+          <h3>React</h3>
           <div className="code-block">
-            <CopyButton text={INSTALL_CMD} />
-            <code>{INSTALL_CMD}</code>
+            <CopyButton text="npm install modelicons" />
+            <code>npm install modelicons</code>
           </div>
-        </section>
-
-        {/* 2. Basic usage */}
-        <section className="code-section">
-          <h3>2. Basic usage</h3>
+          <div style={{ height: 8 }} />
           <div className="code-block">
             <CopyButton text={USAGE_SNIPPET} />
             <pre style={{ margin: 0 }}>
@@ -101,23 +114,52 @@ export function QuickstartModal({ onClose }: { onClose: () => void }) {
           </div>
         </section>
 
-        {/* 3. Next.js RSC (recommended) */}
+        {/* Vue */}
         <section className="code-section">
-          <h3>3. Next.js Server Components — 0 KB client cost</h3>
+          <h3>Vue 3</h3>
+          <div className="code-block">
+            <CopyButton text="npm install @modelicons/vue" />
+            <code>npm install @modelicons/vue</code>
+          </div>
+          <div style={{ height: 8 }} />
+          <div className="code-block">
+            <CopyButton text={VUE_SNIPPET} />
+            <pre style={{ margin: 0 }}>
+              <code>{VUE_SNIPPET}</code>
+            </pre>
+          </div>
+        </section>
+
+        {/* Raw SVG */}
+        <section className="code-section">
+          <h3>Svelte / SolidJS / Astro / anywhere else</h3>
+          <div className="code-block">
+            <CopyButton text="npm install @modelicons/svg" />
+            <code>npm install @modelicons/svg</code>
+          </div>
+          <div style={{ height: 8 }} />
+          <div className="code-block">
+            <CopyButton text={SVG_SNIPPET} />
+            <pre style={{ margin: 0 }}>
+              <code>{SVG_SNIPPET}</code>
+            </pre>
+          </div>
+        </section>
+
+        {/* React extras */}
+        <section className="code-section">
+          <h3>React extras: RSC + dynamic lookup</h3>
+          <p style={{ color: 'var(--muted)', fontSize: 13, margin: '0 0 8px' }}>
+            In Next.js Server Components the icons add 0 KB to client bundle.
+          </p>
           <div className="code-block">
             <CopyButton text={RSC_SNIPPET} />
             <pre style={{ margin: 0 }}>
               <code>{RSC_SNIPPET}</code>
             </pre>
           </div>
-        </section>
-
-        {/* 4. Dynamic lookup */}
-        <section className="code-section">
-          <h3>4. Runtime provider lookup (lazy)</h3>
-          <p style={{ color: 'var(--muted)', fontSize: 13, margin: '0 0 8px' }}>
-            Use this only when the provider name comes from a runtime string. It pulls the full
-            registry (~720 KB gzip) into a separate chunk.
+          <p style={{ color: 'var(--muted)', fontSize: 13, margin: '12px 0 8px' }}>
+            For provider names that come from a runtime string, lazy-load the registry.
           </p>
           <div className="code-block">
             <CopyButton text={DYNAMIC_SNIPPET} />

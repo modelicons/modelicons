@@ -28,10 +28,10 @@ export function BrandGrid() {
         {/* Compact hero — gives the grid maximum space */}
         <header className="hero hero-compact">
           <div className="hero-text">
-            <h1>{ALL_BRANDS.length} AI brand icons for React</h1>
+            <h1>{ALL_BRANDS.length} AI brand icons for the web</h1>
             <p>
-              Zero runtime dependencies. ~5 KB per icon tree-shaken. Click any brand for variants
-              and copy snippets.
+              Zero runtime dependencies. ~5 KB per icon tree-shaken. Available for React, Vue, and
+              as raw SVG (Svelte / SolidJS / Astro / vanilla HTML).
             </p>
           </div>
         </header>

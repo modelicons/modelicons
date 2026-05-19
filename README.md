@@ -1,5 +1,11 @@
 # modelicons
 
+> Also available for **Vue 3** ([`@modelicons/vue`](packages/vue)) and as raw **framework-agnostic SVG strings** ([`@modelicons/svg`](packages/svg)). All packages share the same brand sources in `src/brands/`.
+
+---
+
+# modelicons
+
 [![npm version](https://img.shields.io/npm/v/modelicons.svg?style=flat-square&color=cb3837)](https://www.npmjs.com/package/modelicons)
 [![npm downloads](https://img.shields.io/npm/dm/modelicons.svg?style=flat-square&color=cb3837&label=downloads%2Fmonth)](https://www.npmjs.com/package/modelicons)
 [![npm downloads total](https://img.shields.io/npm/dt/modelicons.svg?style=flat-square&color=cb3837&label=total%20downloads)](https://www.npmjs.com/package/modelicons)
