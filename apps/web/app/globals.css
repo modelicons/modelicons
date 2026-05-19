@@ -96,6 +96,60 @@ code, pre {
 }
 .hero h1 { font-size: 32px; margin: 0 0 8px; letter-spacing: -0.02em; }
 .hero p { color: var(--muted); margin: 0; max-width: 640px; }
+
+/* Compact hero: tighter padding so the grid shows up faster */
+.hero-compact {
+  padding: 28px 0 16px;
+}
+.hero-compact h1 { font-size: 22px; }
+.hero-compact p { font-size: 14px; }
+
+/* Sticky filter bar: search + chips stick to the top while scrolling the grid */
+.filter-bar-sticky {
+  position: sticky;
+  top: 60px;
+  z-index: 30;
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  backdrop-filter: blur(8px);
+  padding: 12px 0 8px;
+  margin: 0 0 8px;
+  border-bottom: 1px solid var(--border);
+}
+.filter-bar-sticky .search-input {
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 8px;
+}
+.filter-bar-sticky .chip-row.inline-chips {
+  padding: 4px 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.filter-bar-sticky .result-meta {
+  margin: 4px 0 0;
+}
+
+/* Get-started CTA in header */
+.cta-sm {
+  padding: 6px 14px;
+  background: var(--accent);
+  color: var(--accent-fg);
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cta-sm:hover { filter: brightness(0.95); }
+
+.qs-section-h {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 .hero-cta {
   margin-top: 20px;
   display: flex;
