@@ -1,5 +1,14 @@
 # modelicons
 
+[![npm version](https://img.shields.io/npm/v/modelicons.svg?style=flat-square&color=cb3837)](https://www.npmjs.com/package/modelicons)
+[![npm downloads](https://img.shields.io/npm/dm/modelicons.svg?style=flat-square&color=cb3837&label=downloads%2Fmonth)](https://www.npmjs.com/package/modelicons)
+[![npm downloads total](https://img.shields.io/npm/dt/modelicons.svg?style=flat-square&color=cb3837&label=total%20downloads)](https://www.npmjs.com/package/modelicons)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/modelicons?style=flat-square&label=gzipped&color=5e72e4)](https://bundlephobia.com/package/modelicons)
+[![tree-shakeable](https://img.shields.io/badge/tree--shakeable-yes-44cc11?style=flat-square)](https://bundlephobia.com/package/modelicons)
+[![zero deps](https://img.shields.io/badge/runtime%20deps-0-44cc11?style=flat-square)](https://www.npmjs.com/package/modelicons?activeTab=dependencies)
+[![license](https://img.shields.io/npm/l/modelicons.svg?style=flat-square&color=999999)](https://github.com/modelicons/modelicons/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/modelicons/modelicons?style=flat-square&color=ffd43b)](https://github.com/modelicons/modelicons)
+
 300+ AI model brand SVG icons for React. Zero runtime dependencies. ~5 KB per icon tree-shaken.
 
 ```bash
