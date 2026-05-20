@@ -1,6 +1,8 @@
 # modelicons
 
-> Also available for **Vue 3** ([`@modelicons/vue`](packages/vue)) and as raw **framework-agnostic SVG strings** ([`@modelicons/svg`](packages/svg)). All packages share the same brand sources in `src/brands/`.
+> 🌐 **Live gallery → [modelmeta.dev/icons](https://modelmeta.dev/icons)** — browse all 319 brands, search, filter by category, and copy-paste snippets for React / Vue 3 / Svelte / raw SVG.
+>
+> Also available for **Vue 3** ([`@modelicons/vue`](packages/vue)), **Svelte 4/5** ([`@modelicons/svelte`](packages/svelte)) and as raw **framework-agnostic SVG strings** ([`@modelicons/svg`](packages/svg)). All packages share the same brand sources in `src/brands/`.
 
 ---
 

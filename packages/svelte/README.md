@@ -2,6 +2,8 @@
 
 300+ AI model brand icons for Svelte 4/5. Zero runtime dependencies.
 
+> 🌐 **Live gallery → [modelmeta.dev/icons](https://modelmeta.dev/icons)** — browse, search, copy snippets for any framework.
+
 ```bash
 npm install @modelicons/svelte
 ```

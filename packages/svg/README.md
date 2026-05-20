@@ -2,6 +2,8 @@
 
 300+ AI model brand logos as raw SVG strings. Framework-agnostic.
 
+> 🌐 **Live gallery → [modelmeta.dev/icons](https://modelmeta.dev/icons)** — browse, search, copy snippets for any framework.
+
 ```bash
 npm install @modelicons/svg
 ```

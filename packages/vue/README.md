@@ -2,6 +2,8 @@
 
 300+ AI model brand icons for Vue 3. Zero runtime dependencies.
 
+> 🌐 **Live gallery → [modelmeta.dev/icons](https://modelmeta.dev/icons)** — browse, search, copy snippets for any framework.
+
 ```bash
 npm install @modelicons/vue
 ```

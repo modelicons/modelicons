@@ -25,6 +25,15 @@ export function Header({ count }: { count: number }) {
             modelicons
           </a>
           <span className="header-meta">{count} brands</span>
+          <a
+            href="https://modelmeta.dev/icons"
+            target="_blank"
+            rel="noreferrer"
+            className="header-meta"
+            title="Canonical live gallery"
+          >
+            modelmeta.dev/icons ↗
+          </a>
           <div style={{ flex: 1 }} />
           <button
             onClick={() => setShowQuickstart(true)}
