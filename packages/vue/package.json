@@ -1,6 +1,6 @@
 {
   "name": "@modelicons/vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "300+ AI model brand icons for Vue 3. Zero runtime dependencies, ~5 KB per icon tree-shaken.",
   "keywords": [
     "ai",

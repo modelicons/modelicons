@@ -1,6 +1,6 @@
 {
   "name": "@modelicons/svelte",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "300+ AI model brand icons for Svelte 4/5. Zero runtime dependencies.",
   "keywords": [
     "ai",
